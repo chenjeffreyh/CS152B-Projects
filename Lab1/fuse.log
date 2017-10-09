@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/one_bit_alu_tb_isim_beh.exe -prj C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/one_bit_alu_tb_beh.prj work.one_bit_alu_tb work.glbl 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_one_mux.v" into library work
+Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/three_one_mux.v" into library work
+Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/addbit.v" into library work
+Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/one_bit_alu.v" into library work
+Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/one_bit_alu_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module two_one_mux
+Compiling module addbit
+Compiling module three_one_mux
+Compiling module one_bit_alu
+Compiling module one_bit_alu_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/one_bit_alu_tb_isim_beh.exe
+Fuse Memory Usage: 27340 KB
+Fuse CPU Usage: 420 ms

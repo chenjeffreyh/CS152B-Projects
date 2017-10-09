@@ -42,28 +42,14 @@ wire b_invert;
 wire carry_in;
 wire operation;
 */
-reg b_final;
-reg [1:0] sum;
-    
-reg result;
-reg carry_out;
+wire b_final;
+wire sum;
 
-always @(*) begin
-   if (b_invert) begin
-      b_final <= ~b;
-   end else begin
-		b_final <= b;
-	end
-   case (operation)
-      2'b00: result <= a & b_final;
-      2'b01: result <= a | b_final;
-      2'b10: begin
-         sum <= a + b_final + carry_in;
-         result <= sum[0];
-         carry_out <= sum[1];
-      end
-	endcase
-end
+wire result;
+wire carry_out;
 
+two_one_mux _2_1_mux(b_invert, b, ~b, b_final);
+addbit _addbit (a, b_final, carry_in, sum, carry_out);
+three_one_mux _3_1_mux(operation, a & b_final, a | b_final, sum, result);
 
 endmodule
