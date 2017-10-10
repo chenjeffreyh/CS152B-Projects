@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module sixteen_bit_alu(
+module sixteen_bit_alu(a, b, b_invert, carry_in, operation, result, carry_out
     );
 input [15:0] a;
 input [15:0] b;
