@@ -47,7 +47,7 @@ sixteen_bit_alu _16_bit_sub (.a(a),
                              .carry_in(1),
                              .operation(2),
                              .result(result[0]),
-                             .carry_out(ovf[0]));
+                             .carry_out());
 
 /**
  * 16-bit addition module.
@@ -558,6 +558,13 @@ assign lte = ~(result[11][0] |
                result[11][14] |
                result[11][15]) |
               result[11][15];
+
+/*
+ * For subtraction, overflow has occurred when the operands a and b have
+ * different MSbs and the result MSb is different operand a's MSb.
+ */
+assign ovf[0] = (a[15] & ~b[15] & ~s[15]) |
+                (~a[15] & b[15] & s[15]);
 
 /*
  * For addition, overflow has occurred when both operands have the same MSb
