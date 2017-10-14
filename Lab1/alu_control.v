@@ -497,6 +497,25 @@ sixteen_one_mux _bit15 (.sel(ctrl),
                              result[0][15]}),
                         .out(s[15]));
 
+sixteen_one_mux _ovf (.sel(ctrl),
+                      .in({0,
+                           0,
+                           0,
+                           0,
+                           ovf[11],
+                           ovf[10],
+                           ovf[9],
+                           ovf[8],
+                           ovf[7],
+                           ovf[6],
+                           ovf[5],
+                           ovf[4],
+                           ovf[3],
+                           ovf[2],
+                           ovf[1],
+                           ovf[0]}),
+                      .out(overflow));
+
 /*
  * A detector for if the ALU result is 0.
  */

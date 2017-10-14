@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri Oct 13 23:51:29 2017
+# Process ID: 32500
+# Current directory: H:/GitRepos/CS152B-Projects/Lab1-Vivado/RMJ-Lab1.sim/16_bit_alu_sim/behav/xsim
+# Command line: wbtcv.exe -mode batch -source H:/GitRepos/CS152B-Projects/Lab1-Vivado/RMJ-Lab1.sim/16_bit_alu_sim/behav/xsim/xsim.dir/ut_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: H:/GitRepos/CS152B-Projects/Lab1-Vivado/RMJ-Lab1.sim/16_bit_alu_sim/behav/xsim/webtalk.log
+# Journal file: H:/GitRepos/CS152B-Projects/Lab1-Vivado/RMJ-Lab1.sim/16_bit_alu_sim/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source H:/GitRepos/CS152B-Projects/Lab1-Vivado/RMJ-Lab1.sim/16_bit_alu_sim/behav/xsim/xsim.dir/ut_wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
