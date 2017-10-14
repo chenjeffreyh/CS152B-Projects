@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Lab1/one_bit_alu.v" \
+"../../../../../Lab1/addbit.v" \
+"../../../../../Lab1/two_one_mux.v" \
+"../../../../../Lab1/three_one_mux.v" \
+"../../../../../Lab1/alu_control.v" \
+"../../../../../Lab1/sixteen_one_mux.v" \
+"../../../../../Lab1/two_bit_alu.v" \
+"../../../../../Lab1/four_bit_alu.v" \
+"../../../../../Lab1/eight_bit_alu.v" \
+"../../../../../Lab1/sixteen_bit_alu.v" \
+"../../../../../Lab1/one_bit_alu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
