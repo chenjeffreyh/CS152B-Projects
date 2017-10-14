@@ -29,7 +29,7 @@ module alu_16_add_ut;
     reg [3:0] ctrl;
 
     /*
-     * UUT outputs used for waveform observation by unit test wrapper.
+     * UUT outputs.
      */
     wire zero;
     wire [15:0] s;
