@@ -3,7 +3,7 @@
 Oct  4 2017
 20:11:37
 H:/GitRepos/CS152B-Projects/Lab1-Vivado/RMJ-Lab1.sim/16_bit_alu_sim/behav/xsim/glbl.v,1507081072,verilog,,,,glbl,,,,,,,,
-H:/GitRepos/CS152B-Projects/Lab1/16_bit_alu_sim/alu_16_add_ut.v,1507968198,verilog,,,,alu_16_add_ut,,,,,,,,
+H:/GitRepos/CS152B-Projects/Lab1/16_bit_alu_sim/alu_16_add_ut.v,1507975738,verilog,,,,alu_16_add_ut,,,,,,,,
 H:/GitRepos/CS152B-Projects/Lab1/addbit.v,1507927646,verilog,,H:/GitRepos/CS152B-Projects/Lab1/eight_bit_alu.v,,addbit,,,,,,,,
 H:/GitRepos/CS152B-Projects/Lab1/alu_control.v,1507960615,verilog,,H:/GitRepos/CS152B-Projects/Lab1/16_bit_alu_sim/alu_16_add_ut.v,,alu_control,,,,,,,,
 H:/GitRepos/CS152B-Projects/Lab1/eight_bit_alu.v,1507927646,verilog,,H:/GitRepos/CS152B-Projects/Lab1/four_bit_alu.v,,eight_bit_alu,,,,,,,,
