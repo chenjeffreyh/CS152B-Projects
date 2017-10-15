@@ -113,11 +113,11 @@ module alu_16_dec_ut;
     initial begin
         /*
          * Initialize operands to 0. Decrementing is selected using control
-         * code 5.
+         * code 4.
          */
         a = 0;
         b = 0;
-        ctrl = 5;
+        ctrl = 4;
 
         /*
          * Enforce a short delay before tests begin.

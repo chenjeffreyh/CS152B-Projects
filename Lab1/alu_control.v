@@ -99,7 +99,7 @@ sixteen_bit_alu _16_bit_dec (.a(a),
                              .carry_in(1),
                              .operation(2),
                              .result(result[4]),
-                             .carry_out(ovf[4]));
+                             .carry_out());
 									  
 /**
  * 16-bit increment module.
@@ -572,5 +572,11 @@ assign ovf[0] = (a[15] & ~b[15] & ~s[15]) |
  */
 assign ovf[1] = (a[15] & b[15] & ~s[15]) |
                 (~a[15] & ~b[15] & s[15]);
+                
+/*
+ * For decrementing, overflow has occurred when the input MSb is 1 and the result
+ * MSb is 0.
+ */
+assign ovf[4] = a[15] & ~s[15]; 
 
 endmodule
