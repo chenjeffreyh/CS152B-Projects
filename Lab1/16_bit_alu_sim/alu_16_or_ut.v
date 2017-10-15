@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 10/13/2017 10:45:28 PM
+// Create Date: 10/14/2017 04:44:15 AM
 // Design Name: 
-// Module Name: 16_bit_alu_add_tb
+// Module Name: alu_16_sub_ut
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
