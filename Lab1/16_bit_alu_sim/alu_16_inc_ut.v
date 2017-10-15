@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 10/13/2017 10:45:28 PM
+// Create Date: 10/14/2017 04:44:15 AM
 // Design Name: 
-// Module Name: 16_bit_alu_add_tb
+// Module Name: alu_16_sub_ut
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -19,13 +19,13 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module alu_16_and_ut;
+module alu_16_inc_ut;
 
     /*
      * UUT inputs.
      */
-    reg [15:0] a;
-    reg [15:0] b;
+    reg[15:0] a;
+    reg[15:0] b;
     reg [3:0] ctrl;
 
     /*
@@ -34,7 +34,7 @@ module alu_16_and_ut;
     wire zero;
     wire [15:0] s;
     wire overflow;
-    
+
     /*
      * Instantiate the Unit Under Test (UUT).
      */
@@ -73,32 +73,37 @@ module alu_16_and_ut;
 
         begin
             /*
-             * Basic test cases involving 0. The result should be 0.
+             * Some simple increments.
              */
-            testcase(0, 0);
             testcase(1, 0);
-            testcase(0, 1);
-            testcase(-101, 0);
-            testcase(0, 16'b1111_1111_1111_1111);
-            testcase(16'b0111_1111_1111_1111, 0);
+            testcase(-3, 0);
+            testcase(-32768, 0);
+            testcase(15, 0);
 
             /*
-             * Ands with ~0 should all be the other value.
+             * Sign change.
              */
-            testcase(0, ~0);
-            testcase(5, ~0);
-            testcase(~0, ~0);
-            testcase(16'b0111_1111_1111_1111, ~0);
+            testcase(-1, 0);
 
             /*
-             * Some more test cases.
+             * Overflow.
              */
-            testcase(16'b0101_0101_0101_0101, 16'b1010_1010_1010_1010);
-            testcase(16'b0000_0000_1111_1111, 16'b0000_0000_1111_1111);
-            testcase(53, 64);
-            testcase(1024, 3516);
-            testcase(17592, 8156);
-            testcase(16384, 16383);
+            testcase(32767, 0);
+
+            /*
+             * Fixing a and changing b should have no effect on the result.
+             */
+            testcase(1, 0);
+            testcase(1, 5);
+            testcase(1, 32767);
+            testcase(1, -32768);
+
+            /*
+             * Changing both a and b for good measure.
+             */
+            testcase(13, -512);
+            testcase(-32768, -1231);
+            testcase(0, -32768);
         end
     endtask
 
@@ -107,12 +112,12 @@ module alu_16_and_ut;
      */
     initial begin
         /*
-         * Initialize operands to 0. Addition is selected using control code
-         * 1.
+         * Initialize operands to 0. Subtraction is selected using control code
+         * 0.
          */
         a = 0;
         b = 0;
-        ctrl = 3;
+        ctrl = 4;
 
         /*
          * Enforce a short delay before tests begin.

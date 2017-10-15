@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module alu_16_and_ut;
+module alu_16_slte_ut;
 
     /*
      * UUT inputs.
@@ -73,32 +73,30 @@ module alu_16_and_ut;
 
         begin
             /*
-             * Basic test cases involving 0. The result should be 0.
+             * Cases where a is greater than b.
+             */
+            testcase(1, 0);
+            testcase(0, -1);
+            testcase(32767, -2);
+            testcase(32767, -32768);
+            testcase(-1, -5);
+
+            /*
+             * Cases where a is less than b.
+             */
+            testcase(0, 1);
+            testcase(-1, 0);
+            testcase(-2, 32767);
+            testcase(-32768, 32767);
+            testcase(-5, -1);
+
+            /*
+             * Cases where a is equal to b.
              */
             testcase(0, 0);
-            testcase(1, 0);
-            testcase(0, 1);
-            testcase(-101, 0);
-            testcase(0, 16'b1111_1111_1111_1111);
-            testcase(16'b0111_1111_1111_1111, 0);
-
-            /*
-             * Ands with ~0 should all be the other value.
-             */
-            testcase(0, ~0);
-            testcase(5, ~0);
-            testcase(~0, ~0);
-            testcase(16'b0111_1111_1111_1111, ~0);
-
-            /*
-             * Some more test cases.
-             */
-            testcase(16'b0101_0101_0101_0101, 16'b1010_1010_1010_1010);
-            testcase(16'b0000_0000_1111_1111, 16'b0000_0000_1111_1111);
-            testcase(53, 64);
-            testcase(1024, 3516);
-            testcase(17592, 8156);
-            testcase(16384, 16383);
+            testcase(-16, -16);
+            testcase(32767, 32767);
+            testcase(-32768, -32768);
         end
     endtask
 
@@ -112,7 +110,7 @@ module alu_16_and_ut;
          */
         a = 0;
         b = 0;
-        ctrl = 3;
+        ctrl = 11;
 
         /*
          * Enforce a short delay before tests begin.
