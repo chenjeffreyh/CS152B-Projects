@@ -96,8 +96,8 @@ module alu_16_sll_ut;
      */
     initial begin
         /*
-         * Initialize operands to 0. Subtraction is selected using control code
-         * 0.
+         * Initialize operands to 0. Logical left shift is selected using
+         * control code 9.
          */
         a = 0;
         b = 0;

@@ -107,8 +107,8 @@ module alu_16_and_ut;
      */
     initial begin
         /*
-         * Initialize operands to 0. Addition is selected using control code
-         * 1.
+         * Initialize operands to 0. Bitwise and is selected using control
+         * code 3.
          */
         a = 0;
         b = 0;

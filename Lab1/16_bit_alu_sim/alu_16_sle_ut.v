@@ -105,8 +105,8 @@ module alu_16_slte_ut;
      */
     initial begin
         /*
-         * Initialize operands to 0. Addition is selected using control code
-         * 1.
+         * Initialize operands to 0. Set on less than or equal to is selected
+         * using control code 11.
          */
         a = 0;
         b = 0;

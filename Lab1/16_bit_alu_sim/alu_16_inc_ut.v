@@ -112,8 +112,8 @@ module alu_16_inc_ut;
      */
     initial begin
         /*
-         * Initialize operands to 0. Subtraction is selected using control code
-         * 0.
+         * Initialize operands to 0. Incrementing is selected using control code
+         * 4.
          */
         a = 0;
         b = 0;
