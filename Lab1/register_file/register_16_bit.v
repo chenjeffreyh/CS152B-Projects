@@ -53,6 +53,15 @@ output [15:0] busOut;
  */
 reg [15:0] val;
 
+assign busOut = val;
+
+/*
+ * Initialize the register to a value of 0.
+ */
+initial begin
+    val <= 0;
+end
+
 always @ (posedge clk)
 begin : LATCH
     /*
@@ -70,6 +79,5 @@ begin : LATCH
     else if (wrEn) begin
         val <= busIn;
     end
-    
 end
 endmodule
