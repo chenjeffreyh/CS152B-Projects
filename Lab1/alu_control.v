@@ -543,26 +543,33 @@ assign zero = ~(s[0] |
                 s[15]);
 
 /*
- * 1-bit wire indicating the set on less than or equal to result. The result
- * should be 1 if either all bits are 0, or the MSb is 1.
+ * 1-bit wire indicating the set on less than or equal to result. The
+ * following conditions are used to determine whether a less-than-or-equal
+ * condition has been satisfied:
+ *
+ * 1.) MSb of a is not 0 while MSb of b is 1, AND
+ * 2.) MSb of a is 1 while MSb of b is 0, OR
+ * 3.) the difference a - b is either all 0s or has an MSb of 1.
  */
-assign lte = ~(result[11][0] |
-               result[11][1] |
-               result[11][2] |
-               result[11][3] |
-               result[11][4] |
-               result[11][5] |
-               result[11][6] |
-               result[11][7] |
-               result[11][8] |
-               result[11][9] |
-               result[11][10] |
-               result[11][11] |
-               result[11][12] |
-               result[11][13] |
-               result[11][14] |
-               result[11][15]) |
-              result[11][15];
+assign lte = (a[15] | ~b[15]) &
+             ((a[15] & ~b[15]) |
+              (~(result[11][0] |
+                 result[11][1] |
+                 result[11][2] |
+                 result[11][3] |
+                 result[11][4] |
+                 result[11][5] |
+                 result[11][6] |
+                 result[11][7] |
+                 result[11][8] |
+                 result[11][9] |
+                 result[11][10] |
+                 result[11][11] |
+                 result[11][12] |
+                 result[11][13] |
+                 result[11][14] |
+                 result[11][15]) |
+               result[11][15]));
 
 /*
  * For subtraction, overflow has occurred when the operands a and b have
