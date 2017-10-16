@@ -86,7 +86,7 @@ sixteen_bit_alu _16_bit_and (.a(a),
 							 .carry_in(0),
 							 .operation(0),
 							 .result(result[3]),
-							 .carry_out(ovf[3]));
+							 .carry_out());
 									  
 /**
  * 16-bit decrement module.
@@ -112,7 +112,7 @@ sixteen_bit_alu _16_bit_inc (.a(a),
                              .carry_in(0),
                              .operation(2),
                              .result(result[5]),
-                             .carry_out(ovf[5]));
+                             .carry_out());
 									  
 /**
  * 16-bit invert module.
@@ -510,7 +510,7 @@ sixteen_one_mux _ovf (.sel(ctrl),
                            ovf[6],
                            ovf[5],
                            ovf[4],
-                           ovf[3],
+                           1'b0,
                            ovf[2],
                            ovf[1],
                            ovf[0]}),
@@ -578,5 +578,11 @@ assign ovf[1] = (a[15] & b[15] & ~s[15]) |
  * MSb is 0.
  */
 assign ovf[4] = a[15] & ~s[15]; 
+
+/*
+ * For incrementing, overflow has occurred when the input MSb is 0 and the result
+ * MSb is 1.
+ */
+assign ovf[5] = s[15] & ~a[15]; 
 
 endmodule

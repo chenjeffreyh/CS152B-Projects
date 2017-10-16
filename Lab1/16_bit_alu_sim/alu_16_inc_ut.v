@@ -113,11 +113,11 @@ module alu_16_inc_ut;
     initial begin
         /*
          * Initialize operands to 0. Incrementing is selected using control code
-         * 4.
+         * 5.
          */
         a = 0;
         b = 0;
-        ctrl = 4;
+        ctrl = 5;
 
         /*
          * Enforce a short delay before tests begin.
