@@ -70,5 +70,6 @@ begin : LATCH
     else if (wrEn) begin
         val <= busIn;
     end
-
+    
+end
 endmodule

@@ -599,39 +599,10 @@ assign ovf[4] = a[15] & ~s[15];
 assign ovf[5] = s[15] & ~a[15]; 
 
 /*
- *
+ * We define a separate module for overflow logic in arithmetic left shifts
+ * because it's too freaking complex.
  */
-wire signed[15:0] premask;
-wire signed [15:0] mask;
-wire [15:0] inv_mask;
-wire [15:0] check_1;
-wire [15:0] check_0;
-wire [15:0] check_1_all_1s;
-wire [15:0] check_0_all_0s;
-assign premask = 16'b1000_0000_0000_0000;
-assign mask = premask >>> b;
-assign inv_mask = 16'b0111_1111_1111_1111 >> b;
-
-// All 1 if the targeted bitfield is all 1s.
-assign check_1 = a & mask | inv_mask;
-
-// All 0 if the targeted bitfield is all 0s.
-assign check_0 = (a | inv_mask) & mask;
-
-assign check_1_all_1s =  check_1[15] & check_1[14] & check_1[13] & check_1[12] &
-                         check_1[11] & check_1[10] & check_1[9] & check_1[8] &
-                         check_1[7] & check_1[6] & check_1[5] & check_1[4] &
-                         check_1[3] & check_1[2] & check_1[1] & check_1[0];
-
-assign check_0_all_0s =  ~(check_0[15] | check_0[14] | check_0[13] | check_0[12] |
-                           check_0[11] | check_0[10] | check_0[9] | check_0[8] |
-                           check_0[7] | check_0[6] | check_0[5] | check_0[4] |
-                           check_0[3] | check_0[2] | check_0[1] | check_0[0]);
-                  
-assign ovf[7] = 1 & (check_1_all_1s | check_0_all_0s) &
-                (b[15] | b[14] | b[13] | b[12] |
-                 b[11] | b[10] | b[9] | b[8] |
-                 b[7] | b[6] | b[5] | b[4] |
-                 b[3] | b[2] | b[1] | b[0]);
-
+sla_ovf_detect _sla_ovf_detect (.a(a),
+                                .b(b),
+                                .ovf(ovf[7]));
 endmodule
