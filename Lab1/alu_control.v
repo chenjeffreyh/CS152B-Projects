@@ -497,21 +497,26 @@ sixteen_one_mux _bit15 (.sel(ctrl),
                              result[0][15]}),
                         .out(s[15]));
 
+/**
+ * Overflow output mux. Overflow is only applicable for addition, subtraction,
+ * incrementing, and decrementing. Overflow is asserted low for all other ALU
+ * modes.
+ */
 sixteen_one_mux _ovf (.sel(ctrl),
-                      .in({0,
-                           0,
-                           0,
-                           0,
-                           ovf[11],
-                           ovf[10],
-                           ovf[9],
-                           ovf[8],
-                           ovf[7],
-                           ovf[6],
+                      .in({1'b0,
+                           1'b0,
+                           1'b0,
+                           1'b0,
+                           1'b0,
+                           1'b0,
+                           1'b0,
+                           1'b0,
+                           1'b0,
+                           1'b0,
                            ovf[5],
                            ovf[4],
                            1'b0,
-                           ovf[2],
+                           1'b0,
                            ovf[1],
                            ovf[0]}),
                       .out(overflow));
