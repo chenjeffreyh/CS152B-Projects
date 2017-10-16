@@ -48,4 +48,27 @@ input rst;
  */
 output [15:0] busOut;
 
+/**
+ * The actual register.
+ */
+reg [15:0] val;
+
+always @ (posedge clk)
+begin : LATCH
+    /*
+     * Reset assertions take global priority and should immediately set the
+     * register value to 0.
+     */
+    if (rst) begin
+        val <= 16'b0000_0000_0000_0000;
+    end
+
+    /*
+     * If there is a concurrent read and write operation, the register output
+     * value should reflect the write value in the same cycle (pass-through).
+     */ 
+    else if (wrEn) begin
+        val <= busIn;
+    end
+
 endmodule
