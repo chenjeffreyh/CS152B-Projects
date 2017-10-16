@@ -1,5 +1,5 @@
 ISim log file
-Running: C:\Users\CS152B\Desktop\RMJ\RMJ-Lab1\one_bit_alu_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/one_bit_alu_tb_isim_beh.wdb 
+Running: C:\Users\CS152B\Desktop\RMJ\RMJ-Lab1\alu_16_sla_ut_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_16_sla_ut_isim_beh.wdb 
 ISim P.68d (signature 0x7708f090)
 ----------------------------------------------------------------------
 WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
@@ -7,10 +7,261 @@ WARNING:Security:42 - Your software subscription period has lapsed. Your current
 
 ----------------------------------------------------------------------
 This is a Full version of ISim.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING:  For instance uut/_16_bit_sub/, width 1 of formal port b_invert is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sub/, width 1 of formal port carry_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sub/, width 3 of formal port operation is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING:  For instance uut/_16_bit_add/, width 1 of formal port b_invert is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_add/, width 1 of formal port carry_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_add/, width 3 of formal port operation is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING:  For instance uut/_16_bit_or/, width 1 of formal port b_invert is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_or/, width 1 of formal port carry_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_or/, width 3 of formal port operation is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING:  For instance uut/_16_bit_and/, width 1 of formal port b_invert is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_and/, width 1 of formal port carry_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_and/, width 3 of formal port operation is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING:  For instance uut/_16_bit_dec/, width 16 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_dec/, width 1 of formal port b_invert is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_dec/, width 1 of formal port carry_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_dec/, width 3 of formal port operation is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING:  For instance uut/_16_bit_inc/, width 16 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_inc/, width 1 of formal port b_invert is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_inc/, width 1 of formal port carry_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_inc/, width 3 of formal port operation is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING:  For instance uut/_16_bit_inv/, width 16 of formal port a is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_inv/, width 1 of formal port b_invert is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_inv/, width 1 of formal port carry_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_inv/, width 3 of formal port operation is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING:  For instance uut/_16_bit_sla/, width 16 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sla/, width 1 of formal port b_invert is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sla/, width 1 of formal port carry_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sla/, width 3 of formal port operation is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING:  For instance uut/_16_bit_sra/, width 16 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sra/, width 1 of formal port b_invert is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sra/, width 1 of formal port carry_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sra/, width 3 of formal port operation is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING:  For instance uut/_16_bit_sll/, width 16 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sll/, width 1 of formal port b_invert is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sll/, width 1 of formal port carry_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sll/, width 3 of formal port operation is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING:  For instance uut/_16_bit_srl/, width 16 of formal port b is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_srl/, width 1 of formal port b_invert is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_srl/, width 1 of formal port carry_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_srl/, width 3 of formal port operation is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_1/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_1/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING: File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 26.  For instance _2_bit_alu_2/_1_bit_alu_2/, width 2 of formal port operation is not equal to width 3 of actual signal operation.
+WARNING:  For instance uut/_16_bit_sle/, width 1 of formal port b_invert is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sle/, width 1 of formal port carry_in is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_16_bit_sle/, width 3 of formal port operation is not equal to width 32 of actual constant.
+WARNING:  For instance uut/_bit0/, width 16 of formal port in is not equal to width 140 of actual constant.
+WARNING:  For instance uut/_bit1/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit2/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit3/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit4/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit5/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit6/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit7/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit8/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit9/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit10/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit11/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit12/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit13/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit14/, width 16 of formal port in is not equal to width 171 of actual constant.
+WARNING:  For instance uut/_bit15/, width 16 of formal port in is not equal to width 171 of actual constant.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 170 ns : File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/one_bit_alu_tb.v" Line 94
+Stopped at time : 60 ns : File "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/16_bit_alu_sim/alu_16_sla_ut.v" Line 125

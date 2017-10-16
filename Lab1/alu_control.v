@@ -20,8 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 module alu_control(a, b, ctrl, overflow, zero, s
     );
-input [15:0] a;
-input [15:0] b;
+input signed [15:0] a;
+input signed [15:0] b;
 input [3:0] ctrl;
 
 output overflow;
@@ -146,6 +146,7 @@ sixteen_bit_alu _16_bit_sla (.a(a <<< b),
  *
  * Directly applies the shift and performs a simple add with b set to 0.
  */
+
 sixteen_bit_alu _16_bit_sra (.a(a >>> b),
                              .b(0),
                              .b_invert(0),
@@ -511,7 +512,7 @@ sixteen_one_mux _ovf (.sel(ctrl),
                            1'b0,
                            1'b0,
                            1'b0,
-                           1'b0,
+                           ovf[7],
                            1'b0,
                            ovf[5],
                            ovf[4],
@@ -596,5 +597,70 @@ assign ovf[4] = a[15] & ~s[15];
  * MSb is 1.
  */
 assign ovf[5] = s[15] & ~a[15]; 
+
+/*
+ *
+ */
+wire [15:0] mask;
+wire [15:0] inv_mask;
+wire [15:0] check_1;
+wire [15:0] check_0;
+assign mask = 16'b1000_0000_0000_0000 >>> b;
+assign inv_mask = 16'b0111_1111_1111_1111 >> b;
+
+// All 1 if the targeted bitfield is all 1s.
+assign check_1 = a & mask | inv_mask;
+
+// All 0 if the targeted bitfield is all 0s.
+assign check_0 = (a | inv_mask) & mask;
+
+assign ovf[7] = ~(check_1[15] &
+						check_1[14] &
+						check_1[13] &
+						check_1[12] &
+						check_1[11] &
+						check_1[10] &
+						check_1[9] &
+						check_1[8] &
+						check_1[7] &
+						check_1[6] &
+						check_1[5] &
+						check_1[4] &
+						check_1[3] &
+						check_1[2] &
+						check_1[1] &
+						check_1[0] |
+						~(check_0[15] |
+						  check_0[14] |
+						  check_0[13] |
+						  check_0[12] |
+						  check_0[11] |
+						  check_0[10] |
+						  check_0[9] |
+						  check_0[8] |
+						  check_0[7] |
+						  check_0[6] |
+						  check_0[5] |
+						  check_0[4] |
+						  check_0[3] |
+						  check_0[2] |
+						  check_0[1] |
+						  check_0[0])) &
+					~(b[15] |
+					  b[14] |
+					  b[13] |
+					  b[12] |
+					  b[11] |
+					  b[10] |
+					  b[9] |
+					  b[8] |
+					  b[7] |
+					  b[6] |
+					  b[5] |
+					  b[4] |
+					  b[3] |
+					  b[2] |
+					  b[1] |
+					  b[0]);
 
 endmodule

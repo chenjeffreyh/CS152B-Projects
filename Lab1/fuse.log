@@ -1,4 +1,4 @@
-Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/one_bit_alu_tb_isim_beh.exe -prj C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/one_bit_alu_tb_beh.prj work.one_bit_alu_tb work.glbl 
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_16_sla_ut_isim_beh.exe -prj C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_16_sla_ut_beh.prj work.alu_16_sla_ut work.glbl 
 ISim P.68d (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
@@ -7,19 +7,171 @@ Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_one_mux.v" into
 Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/three_one_mux.v" into library work
 Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/addbit.v" into library work
 Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/one_bit_alu.v" into library work
-Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/one_bit_alu_tb.v" into library work
+Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" into library work
+Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/four_bit_alu.v" into library work
+Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/eight_bit_alu.v" into library work
+Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/sixteen_one_mux.v" into library work
+Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/sixteen_bit_alu.v" into library work
+Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" into library work
+Analyzing Verilog file "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/16_bit_alu_sim/alu_16_sla_ut.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 198: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 199: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 200: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 201: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 217: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 218: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 219: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 220: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 221: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 236: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 237: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 238: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 239: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 240: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 255: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 256: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 257: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 258: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 259: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 274: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 275: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 276: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 277: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 278: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 293: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 294: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 295: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 296: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 297: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 312: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 313: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 314: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 315: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 316: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 331: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 332: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 333: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 334: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 335: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 350: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 351: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 352: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 353: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 354: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 369: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 370: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 371: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 372: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 373: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 388: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 389: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 390: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 391: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 392: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 407: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 408: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 409: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 410: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 411: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 426: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 427: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 428: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 429: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 430: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 445: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 446: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 447: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 448: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 449: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 464: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 465: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 466: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 467: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 468: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 483: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 484: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 485: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 486: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 487: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 72: Size mismatch in connection of port <b_invert>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 73: Size mismatch in connection of port <carry_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 74: Size mismatch in connection of port <operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 85: Size mismatch in connection of port <b_invert>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 86: Size mismatch in connection of port <carry_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 87: Size mismatch in connection of port <operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 97: Size mismatch in connection of port <b>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 98: Size mismatch in connection of port <b_invert>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 99: Size mismatch in connection of port <carry_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 100: Size mismatch in connection of port <operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 110: Size mismatch in connection of port <b>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 111: Size mismatch in connection of port <b_invert>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 112: Size mismatch in connection of port <carry_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 113: Size mismatch in connection of port <operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 123: Size mismatch in connection of port <a>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 125: Size mismatch in connection of port <b_invert>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 126: Size mismatch in connection of port <carry_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 127: Size mismatch in connection of port <operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 137: Size mismatch in connection of port <b>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 138: Size mismatch in connection of port <b_invert>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 139: Size mismatch in connection of port <carry_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 140: Size mismatch in connection of port <operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 151: Size mismatch in connection of port <b>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 152: Size mismatch in connection of port <b_invert>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 153: Size mismatch in connection of port <carry_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 154: Size mismatch in connection of port <operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 164: Size mismatch in connection of port <b>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 165: Size mismatch in connection of port <b_invert>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 166: Size mismatch in connection of port <carry_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 167: Size mismatch in connection of port <operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 177: Size mismatch in connection of port <b>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 178: Size mismatch in connection of port <b_invert>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 179: Size mismatch in connection of port <carry_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 180: Size mismatch in connection of port <operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 191: Size mismatch in connection of port <b_invert>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 192: Size mismatch in connection of port <carry_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 193: Size mismatch in connection of port <operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 217: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 236: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 255: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 274: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 293: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 312: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 331: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 350: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 369: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 388: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 407: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 426: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 445: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 464: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 483: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 171-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 46: Size mismatch in connection of port <b_invert>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 47: Size mismatch in connection of port <carry_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 48: Size mismatch in connection of port <operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 33: Size mismatch in connection of port <operation>. Formal port size is 2-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/two_bit_alu.v" Line 36: Size mismatch in connection of port <operation>. Formal port size is 2-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 59: Size mismatch in connection of port <b_invert>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 60: Size mismatch in connection of port <carry_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 61: Size mismatch in connection of port <operation>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_control.v" Line 198: Size mismatch in connection of port <in>. Formal port size is 16-bit while actual signal size is 140-bit.
 Completed static elaboration
 Compiling module two_one_mux
 Compiling module addbit
 Compiling module three_one_mux
 Compiling module one_bit_alu
-Compiling module one_bit_alu_tb
+Compiling module two_bit_alu
+Compiling module four_bit_alu
+Compiling module eight_bit_alu
+Compiling module sixteen_bit_alu
+Compiling module sixteen_one_mux
+Compiling module alu_control
+Compiling module alu_16_sla_ut
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 6 Verilog Units
-Built simulation executable C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/one_bit_alu_tb_isim_beh.exe
-Fuse Memory Usage: 27340 KB
-Fuse CPU Usage: 420 ms
+Compiled 12 Verilog Units
+Built simulation executable C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/alu_16_sla_ut_isim_beh.exe
+Fuse Memory Usage: 30948 KB
+Fuse CPU Usage: 467 ms
