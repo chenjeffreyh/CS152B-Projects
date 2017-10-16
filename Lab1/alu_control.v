@@ -126,7 +126,7 @@ sixteen_bit_alu _16_bit_inv (.a(0),
                              .carry_in(0),
                              .operation(2),
                              .result(result[6]),
-                             .carry_out(ovf[6]));
+                             .carry_out());
 									  
 /**
  * 16-bit arithmetic left shift.
@@ -139,7 +139,7 @@ sixteen_bit_alu _16_bit_sla (.a(a <<< b),
                              .carry_in(0),
                              .operation(2),
                              .result(result[7]),
-                             .carry_out(ovf[7]));
+                             .carry_out());
 									  
 /**
  * 16-bit arithmetic right shift.
@@ -601,11 +601,15 @@ assign ovf[5] = s[15] & ~a[15];
 /*
  *
  */
-wire [15:0] mask;
+wire signed[15:0] premask;
+wire signed [15:0] mask;
 wire [15:0] inv_mask;
 wire [15:0] check_1;
 wire [15:0] check_0;
-assign mask = 16'b1000_0000_0000_0000 >>> b;
+wire [15:0] check_1_all_1s;
+wire [15:0] check_0_all_0s;
+assign premask = 16'b1000_0000_0000_0000;
+assign mask = premask >>> b;
 assign inv_mask = 16'b0111_1111_1111_1111 >> b;
 
 // All 1 if the targeted bitfield is all 1s.
@@ -614,53 +618,20 @@ assign check_1 = a & mask | inv_mask;
 // All 0 if the targeted bitfield is all 0s.
 assign check_0 = (a | inv_mask) & mask;
 
-assign ovf[7] = ~(check_1[15] &
-						check_1[14] &
-						check_1[13] &
-						check_1[12] &
-						check_1[11] &
-						check_1[10] &
-						check_1[9] &
-						check_1[8] &
-						check_1[7] &
-						check_1[6] &
-						check_1[5] &
-						check_1[4] &
-						check_1[3] &
-						check_1[2] &
-						check_1[1] &
-						check_1[0] |
-						~(check_0[15] |
-						  check_0[14] |
-						  check_0[13] |
-						  check_0[12] |
-						  check_0[11] |
-						  check_0[10] |
-						  check_0[9] |
-						  check_0[8] |
-						  check_0[7] |
-						  check_0[6] |
-						  check_0[5] |
-						  check_0[4] |
-						  check_0[3] |
-						  check_0[2] |
-						  check_0[1] |
-						  check_0[0])) &
-					~(b[15] |
-					  b[14] |
-					  b[13] |
-					  b[12] |
-					  b[11] |
-					  b[10] |
-					  b[9] |
-					  b[8] |
-					  b[7] |
-					  b[6] |
-					  b[5] |
-					  b[4] |
-					  b[3] |
-					  b[2] |
-					  b[1] |
-					  b[0]);
+assign check_1_all_1s =  check_1[15] & check_1[14] & check_1[13] & check_1[12] &
+                         check_1[11] & check_1[10] & check_1[9] & check_1[8] &
+                         check_1[7] & check_1[6] & check_1[5] & check_1[4] &
+                         check_1[3] & check_1[2] & check_1[1] & check_1[0];
+
+assign check_0_all_0s =  ~(check_0[15] | check_0[14] | check_0[13] | check_0[12] |
+                           check_0[11] | check_0[10] | check_0[9] | check_0[8] |
+                           check_0[7] | check_0[6] | check_0[5] | check_0[4] |
+                           check_0[3] | check_0[2] | check_0[1] | check_0[0]);
+                  
+assign ovf[7] = 1 & (check_1_all_1s | check_0_all_0s) &
+                (b[15] | b[14] | b[13] | b[12] |
+                 b[11] | b[10] | b[9] | b[8] |
+                 b[7] | b[6] | b[5] | b[4] |
+                 b[3] | b[2] | b[1] | b[0]);
 
 endmodule
