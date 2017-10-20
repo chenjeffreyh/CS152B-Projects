@@ -84,7 +84,7 @@ module sla_ovf_detect(a, b, ovf);
                                check_0[7] | check_0[6] | check_0[5] | check_0[4] |
                                check_0[3] | check_0[2] | check_0[1] | check_0[0]);
                       
-    assign ovf = 1 & (check_1_all_1s | check_0_all_0s) &
+    assign ovf = ~(check_1_all_1s | check_0_all_0s) &
                  (b[15] | b[14] | b[13] | b[12] |
                   b[11] | b[10] | b[9] | b[8] |
                   b[7] | b[6] | b[5] | b[4] |
