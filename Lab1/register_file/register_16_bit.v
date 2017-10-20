@@ -22,11 +22,11 @@
 /**
  * A synchronous 16-bit register.
  *
- * @param wrEn Register write enable.
- * @param busIn Input bus (for writing to the register).
- * @param clk Clock signal.
- * @param rst Global reset signal.
- * @param busOut Output bus (for reading from the register).
+ * @input wrEn Register write enable.
+ * @input busIn Input bus (for writing to the register).
+ * @input clk Clock signal.
+ * @input rst Global reset signal.
+ * @output busOut Output bus (for reading from the register).
  */
 module register_16_bit(wrEn, busIn, clk, rst, busOut);
 
