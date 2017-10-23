@@ -18,15 +18,30 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module one_thirty_two_demux(
-	wrEn,
-	register,
-	out
-    );
 
+/**
+ * A 1-to-32 demultiplexer.
+ *
+ * @input wrEn The input bit.
+ * @input register The output line selector.
+ * @output out The 32 output lines.
+ */ 
+module one_thirty_two_demux(wrEn, register, out);
+
+/**
+ * Define inputs.
+ *
+ * @{
+ */
 input wire wrEn;
 input wire [4:0] register;
+/**
+ * @}
+ */
 
+/**
+ * Define outputs.
+ */
 output wire [31:0] out;
 
 assign out[31:0] = wrEn << register;
