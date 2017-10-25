@@ -71,17 +71,20 @@ module register_file(Ra, Rb, Rw, wrEn, busW, clk, rst, busA, busB);
      * Output bus from each register.
      */
     wire [15:0] reg_outputs[0:31];
-	 
-	 wire [511:0] reg_output_bundle;
-	 
-	 genvar j;
-	 
-	 for (j = 0; j < 32; j = j + 1) begin : bundle
-        assign reg_output_bundle[j*16+15:j*16] = reg_outputs[j];	
+	
+    /*
+     * Register outputs re-grouped as one large 512-wire bundle.
+     */
+	wire [511:0] reg_output_bundle;
+     
+    genvar j;
+     
+    for (j = 0; j < 32; j = j + 1) begin : bundle
+        assign reg_output_bundle[j*16+15:j*16] = reg_outputs[j];
     end
 
     /*
-     * The demultiplexer
+     * The demultiplexer.
      */
     one_thirty_two_demux demux (.wrEn(wrEn),
                                 .register(Rw),
@@ -98,11 +101,8 @@ module register_file(Ra, Rb, Rw, wrEn, busW, clk, rst, busA, busB);
                                   .clk(clk),
                                   .rst(rst),
                                   .busOut(reg_outputs[i]));
-    end
+        end
     endgenerate
-
-    //assign busA = reg_outputs[0];
-    //assign busB = reg_outputs[1];
 
     /*
      * A mux bank for Bus A and a mux bank for Bus B.
@@ -113,9 +113,5 @@ module register_file(Ra, Rb, Rw, wrEn, busW, clk, rst, busA, busB);
     mux_bank_512_16 mux_bank_B (.sel(Rb),
 	                             .in(reg_output_bundle),
 										  .out(busB));
-
-
-
-
 
 endmodule
