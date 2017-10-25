@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="RMJ-Lab1" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/alu_16_add_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_add_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_dec_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_dec_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_inc_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_inc_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_inv_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_inv_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_or_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_or_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_sla_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_sla_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_sle_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_sle_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_sll_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_sll_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_sra_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_sra_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_srl_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_srl_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_sub_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_sub_ut.v</ClosedNode>
+         <ClosedNode>/one_thirty_two_demux_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|register_file|testbeds|one_thirty_two_demux_ut.v</ClosedNode>
+         <ClosedNode>/register_16_bit_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|register_file|testbeds|register_16_bit_ut.v</ClosedNode>
+         <ClosedNode>/register_file C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|register_file|register_file.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>register_file (C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/register_file/register_file.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >7</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002b9000000020000000000000000000000000200000064ffffffff000000810000000300000002000002b90000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>register_file (C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/register_file/register_file.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000015a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000001b700000001000000000000004a00000001000000000000006600000001000000000000012b0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>C:\Users\CS152B\Desktop\RMJ\RMJ-Lab1\16_bit_alu_sim\alu_16_add_ut.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000763000000010001000100000000000000000000000064ffffffff000000810000000000000001000007630000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000015a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/alu_16_add_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_add_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_add_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_add_ut.v/uut - alu_control</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v/uut - alu_control/_16_bit_add - sixteen_bit_alu</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v/uut - alu_control/_16_bit_and - sixteen_bit_alu</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v/uut - alu_control/_16_bit_dec - sixteen_bit_alu</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v/uut - alu_control/_16_bit_inc - sixteen_bit_alu</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v/uut - alu_control/_16_bit_inv - sixteen_bit_alu</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v/uut - alu_control/_16_bit_or - sixteen_bit_alu</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v/uut - alu_control/_16_bit_sla - sixteen_bit_alu</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v/uut - alu_control/_16_bit_sle - sixteen_bit_alu</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v/uut - alu_control/_16_bit_sll - sixteen_bit_alu</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v/uut - alu_control/_16_bit_sra - sixteen_bit_alu</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v/uut - alu_control/_16_bit_srl - sixteen_bit_alu</ClosedNode>
+         <ClosedNode>/alu_16_and_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_and_ut.v/uut - alu_control/_16_bit_sub - sixteen_bit_alu</ClosedNode>
+         <ClosedNode>/alu_16_dec_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_dec_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_inc_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_inc_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_inv_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_inv_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_or_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_or_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_sla_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_sla_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_sle_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_sle_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_sll_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_sll_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_sra_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_sra_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_srl_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_srl_ut.v</ClosedNode>
+         <ClosedNode>/alu_16_sub_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|16_bit_alu_sim|alu_16_sub_ut.v</ClosedNode>
+         <ClosedNode>/mux_bank_512_16 C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|register_file|mux_bank_512_16.v</ClosedNode>
+         <ClosedNode>/one_bit_alu_tb C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|one_bit_alu_tb.v</ClosedNode>
+         <ClosedNode>/one_thirty_two_demux_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|register_file|testbeds|one_thirty_two_demux_ut.v</ClosedNode>
+         <ClosedNode>/register_16_bit_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|register_file|testbeds|register_16_bit_ut.v</ClosedNode>
+         <ClosedNode>/register_file C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|register_file|register_file.v</ClosedNode>
+         <ClosedNode>/register_file_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|register_file|testbeds|register_file_ut.v/uut - register_file/mux_bank_A - mux_bank_512_16</ClosedNode>
+         <ClosedNode>/register_file_ut C:|Users|CS152B|Desktop|RMJ|RMJ-Lab1|register_file|testbeds|register_file_ut.v/uut - register_file/mux_bank_B - mux_bank_512_16</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>regs - register_16_bit (C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/register_file/register_16_bit.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >14</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002bf000000020000000000000000000000000200000064ffffffff000000810000000300000002000002bf0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>regs - register_16_bit (C:/Users/CS152B/Desktop/RMJ/RMJ-Lab1/register_file/register_16_bit.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000015a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000015a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

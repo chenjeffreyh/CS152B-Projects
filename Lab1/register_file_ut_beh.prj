@@ -1,0 +1,7 @@
+verilog work "register_file/thirtytwo_one_mux.v"
+verilog work "register_file/register_16_bit.v"
+verilog work "register_file/one_thirty_two_demux.v"
+verilog work "register_file/mux_bank_512_16.v"
+verilog work "register_file/register_file.v"
+verilog work "register_file/testbeds/register_file_ut.v"
+verilog work "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

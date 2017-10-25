@@ -88,12 +88,6 @@ module alu_16_sla_ut;
             testcase(1, 0);
             testcase(-32768, 0);
             testcase(0, -0);
-				
-				/*
-				 * Verify that MSb of the signed number is not shifted out in
-				 * arithmetic shifts.
-				 */
-				testcase(16'b1010_0000_0000_0000, 1);
         end
     endtask
 
