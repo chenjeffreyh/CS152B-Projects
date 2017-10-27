@@ -1,22 +1,22 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
+// Company:
+// Engineer:
+//
 // Create Date: 10/25/2017 01:05:45 PM
-// Design Name: 
+// Design Name:
 // Module Name: traffic_fsm
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
+// Project Name:
+// Target Devices:
+// Tool Versions:
+// Description:
+//
+// Dependencies:
+//
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
-// 
+//
 //////////////////////////////////////////////////////////////////////////////////
 
 /**
@@ -63,6 +63,13 @@ module traffic_fsm(clk,
            ped_light;
 
     /**
+     * The clock prescaler.
+     */
+    wire clk_1Hz;
+    clk_prescaler _clk_prescaler (.clk_in(clk),
+                                  .clk_out(clk_1Hz));
+
+    /**
      * All of the states.
      *
      * @{
@@ -79,39 +86,136 @@ module traffic_fsm(clk,
      */
 
     /**
-     * The clock prescaler.
+     * State variables and constants.
      */
-    wire clk_sec;
-    clk_prescaler _clk_prescaler(.clk_in(clk),
-                                 .clk_out(clk_sec));
+    parameter NUM_STATE_BITS = 8;
+    reg [NUM_STATE_BITS - 1:0] state;
+    reg [NUM_STATE_BITS - 1:0] next_state;
+    reg [2:0] counter;
+    reg [2:0] next_counter;
+    wire walk_light_button;
+    wire side_sensor;
 
     /**
-     * Counters used to keep track of the state.
-     */
-    reg [7:0] state;
-    reg [2:0] state_counter;
-
-    /*
-     * Initialize the default state.
+     * On initialization, set the traffic controller to the first state.
      */
     initial begin
-        state <= MAIN_ST_G;
-        state_counter = 6;
-        main_g = 1;
-        main_r = 0;
-        main_y = 0;
-        side_r = 0;
-        side_g = 0;
-        side_y = 0;
-        ped_light = 0;
+        state = MAIN_ST_G;
+        counter = 6;
     end
 
-    /*
-     * States are always propagated on the rising edge of the clock.
+    /**
+     * Asynchronous block for determining the next state and counters to be
+     * set upon completion of the current state.
      */
-    always @ (posedge clk_sec)
-    begin : STATE_PROP
-        state_counter <= state_counter - 1; 
+    always begin : NEXT_STATE_LOGIC
+        case (state)
+       	    MAIN_ST_G : begin
+       		    next_state <= MAIN_ST_SENS;
+       		    if (side_sensor) begin
+       		    	next_counter <= 3;
+       		    end else begin
+       		    	next_counter <= 6;
+       		    end
+       	    end
+
+            MAIN_ST_SENS : begin
+       	    	next_state <= MAIN_ST_Y;
+       	    	next_counter <= 2;
+       	    end
+
+            MAIN_ST_Y : begin
+       	    	if (walk_light_button) begin
+       	    		next_state <= PED_WALK_ON;
+       	    		next_counter <= 3;
+       	    	end else begin
+       	    		next_state <= SIDE_ST_G;
+       	    		next_counter <= 6;
+       	    	end
+       	    end
+
+            PED_WALK_ON : begin
+       	    	next_state <= SIDE_ST_G;
+       	    	next_counter <= 6;
+       	    end
+
+            SIDE_ST_G : begin
+       	    	if (side_sensor) begin
+       	    		next_state <= SIDE_ST_SENS;
+       	    		next_counter <= 3;
+       	    	end else begin
+       	    		next_state <= SIDE_ST_Y;
+       	    		next_counter <= 2;
+       	    	end
+       	    end
+
+            SIDE_ST_SENS : begin
+       	    	next_state <= SIDE_ST_Y;
+       	    	next_counter <= 2;
+       	    end
+
+            SIDE_ST_Y : begin
+       	    	next_state <= MAIN_ST_G;
+       	    	next_counter <= 6;
+       	    end
+       endcase
+    end
+
+    always @(posedge clk_1Hz) begin
+        counter <= counter - 1;
+        if (counter == 0) begin
+       	    state <= next_state;
+       	    counter <= next_counter;
+        end
+    end
+
+    /**
+     * Set all outputs depending on the current state.
+     */
+    always @(posedge clk_1Hz) begin : STATE_OUTPUT_LOGIC
+        case(state)
+            MAIN_ST_G : begin
+                {main_r, main_y, main_g} <= {0, 0, 1};
+                {side_r, side_y, side_g} <= {1, 0, 0};
+                ped_light <= 0;
+            end
+
+            MAIN_ST_SENS : begin
+                {main_r, main_y, main_g} <= {0, 0, 1};
+                {side_r, side_y, side_g} <= {1, 0, 0};
+                ped_light <= 0;
+            end
+
+            MAIN_ST_Y : begin
+                {main_r, main_y, main_g} <= {0, 1, 0};
+                {side_r, side_y, side_g} <= {1, 0, 0};
+                ped_light <= 0;
+            end
+
+            PED_WALK_ON : begin
+                {main_r, main_y, main_g} <= {1, 0, 0};
+                {side_r, side_y, side_g} <= {1, 0, 0};
+                ped_light <= 1;
+            end
+
+            SIDE_ST_G : begin
+                {main_r, main_y, main_g} <= {1, 0, 0};
+                {side_r, side_y, side_g} <= {0, 0, 1};
+                ped_light <= 0;
+            end
+
+            SIDE_ST_SENS : begin
+                {main_r, main_y, main_g} <= {1, 0, 0};
+                {side_r, side_y, side_g} <= {0, 0, 1};
+                ped_light <= 0;
+            end
+
+            SIDE_ST_Y : begin
+                {main_r, main_y, main_g} <= {1, 0, 0};
+                {side_r, side_y, side_g} <= {0, 1, 0};
+                ped_light <= 0;
+            end
+      endcase
     end
 
 endmodule
