@@ -63,7 +63,7 @@ module traffic_fsm(clk,
            ped_light;
 
     /**
-     * All of the states
+     * All of the states.
      *
      * @{
      */
@@ -77,5 +77,41 @@ module traffic_fsm(clk,
     /**
      * @}
      */
+
+    /**
+     * The clock prescaler.
+     */
+    wire clk_sec;
+    clk_prescaler _clk_prescaler(.clk_in(clk),
+                                 .clk_out(clk_sec));
+
+    /**
+     * Counters used to keep track of the state.
+     */
+    reg [7:0] state;
+    reg [2:0] state_counter;
+
+    /*
+     * Initialize the default state.
+     */
+    initial begin
+        state <= MAIN_ST_G;
+        state_counter = 6;
+        main_g = 1;
+        main_r = 0;
+        main_y = 0;
+        side_r = 0;
+        side_g = 0;
+        side_y = 0;
+        ped_light = 0;
+    end
+
+    /*
+     * States are always propagated on the rising edge of the clock.
+     */
+    always @ (posedge clk_sec)
+    begin : STATE_PROP
+        state_counter <= state_counter - 1; 
+    end
 
 endmodule
