@@ -63,7 +63,7 @@ module traffic_fsm(clk,
            ped_light;
 
     /**
-     * All of the states
+     * All of the states.
      *
      * @{
      */
@@ -77,5 +77,128 @@ module traffic_fsm(clk,
     /**
      * @}
      */
+    
+    /*
+     * State variables and constants.
+     */
+    parameter NUM_STATE_BITS = 8;
+    reg [NUM_STATE_BITS - 1:0] state;
+    reg [NUM_STATE_BITS - 1:0] next_state;
+	 reg [2:0] counter;
+	 reg [2:0] next_counter;
+	 wire walk_light_button;
+	 wire side_sensor;
+     
+    /*
+     * Set clk to __Hz clock
+     */
+    wire clk_1Hz; // Placeholder period.
+    
+    clk_prescaler _clk_prescaler (.clk_in(clk), .clk_out(clk_1Hz));
+	 
+	 initial begin
+		state = MAIN_ST_G;
+		counter = 6;
+	 end
+	 
+	 always
+	 begin : NEXT_STATE_LOGIC
+		case (state)
+			MAIN_ST_G : begin
+				next_state <= MAIN_ST_SENS;
+				if (side_sensor) begin
+					next_counter <= 3;
+				end else begin
+					next_counter <= 6;
+				end
+			end
+         MAIN_ST_SENS : begin
+				next_state <= MAIN_ST_Y;
+				next_counter <= 2;
+			end
+         MAIN_ST_Y : begin
+				if (walk_light_button) begin
+					next_state <= PED_WALK_ON;
+					next_counter <= 3;
+				end else begin
+					next_state <= SIDE_ST_G;
+					next_counter <= 6;
+				end
+			end
+         PED_WALK_ON : begin
+				next_state <= SIDE_ST_G;
+				next_counter <= 6;
+			end
+         SIDE_ST_G : begin
+				if (side_sensor) begin
+					next_state <= SIDE_ST_SENS;
+					next_counter <= 3;
+				end else begin
+					next_state <= SIDE_ST_Y;
+					next_counter <= 2;
+				end
+			end
+         SIDE_ST_SENS : begin
+				next_state <= SIDE_ST_Y;
+				next_counter <= 2;
+			end
+         SIDE_ST_Y : begin
+				next_state <= MAIN_ST_G;
+				next_counter <= 6;
+			end
+		endcase
+	 end
+	 
+	 always @(posedge clk_1Hz) begin
+		counter <= counter - 1;
+		if (counter == 0) begin
+			state <= next_state;
+			counter <= next_counter;
+		end
+	 end
+    
+    /*
+     * 
+     */
+    always @(posedge clk_1Hz) begin : STATE_OUTPUT_LOGIC
+      case(state)
+         MAIN_ST_G : begin
+                        {main_r, main_y, main_g} <= {0, 0, 1};
+                        {side_r, side_y, side_g} <= {1, 0, 0};
+                        ped_light <= 0;
+                     end
+         MAIN_ST_SENS : begin
+                            {main_r, main_y, main_g} <= {0, 0, 1};
+                            {side_r, side_y, side_g} <= {1, 0, 0};
+                            ped_light <= 0;
+                        end
+         MAIN_ST_Y : begin
+                        {main_r, main_y, main_g} <= {0, 1, 0};
+                        {side_r, side_y, side_g} <= {1, 0, 0};
+                        ped_light <= 0;
+                     end
+         PED_WALK_ON : begin
+							      {main_r, main_y, main_g} <= {1, 0, 0};
+									{side_r, side_y, side_g} <= {1, 0, 0};
+									ped_light <= 1;
+                       end
+			SIDE_ST_G : begin
+			                {main_r, main_y, main_g} <= {1, 0, 0};
+								 {side_r, side_y, side_g} <= {0, 0, 1};
+								 ped_light <= 0;
+				         end
+			SIDE_ST_SENS : begin
+			                  {main_r, main_y, main_g} <= {1, 0, 0};
+								   {side_r, side_y, side_g} <= {0, 0, 1};
+								   ped_light <= 0;
+				            end
+
+			SIDE_ST_Y : begin
+			                {main_r, main_y, main_g} <= {1, 0, 0};
+								 {side_r, side_y, side_g} <= {0, 1, 0};
+								 ped_light <= 0;
+				         end
+      endcase
+    end
 
 endmodule
