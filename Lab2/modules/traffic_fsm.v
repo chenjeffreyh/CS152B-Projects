@@ -63,6 +63,25 @@ module traffic_fsm(clk,
            ped_light;
 
     /**
+     * Output registers.
+     */
+    reg _main_r,
+        _main_g,
+        _main_y,
+        _side_r,
+        _side_g,
+        _side_y,
+        _ped_light;
+
+    assign main_r = _main_r;
+    assign main_g = _main_g;
+    assign main_y = _main_y;
+    assign side_r = _side_r;
+    assign side_g = _side_g;
+    assign side_y = _side_y;
+    assign ped_light = _ped_light;
+
+    /**
      * The clock prescaler.
      */
     wire clk_1Hz;
@@ -97,18 +116,26 @@ module traffic_fsm(clk,
     wire side_sensor;
 
     /**
+     * For now, assign directly before we've implemented latching for the
+     * pedestrian walk button.
+     */
+    assign side_sensor = traf_sense;
+    assign walk_light_button = ped_btn;
+
+    /**
      * On initialization, set the traffic controller to the first state.
      */
     initial begin
-        state = MAIN_ST_G;
-        counter = 6;
+        state <= MAIN_ST_G;
+        counter <= 6;
     end
 
     /**
      * Asynchronous block for determining the next state and counters to be
      * set upon completion of the current state.
      */
-    always begin : NEXT_STATE_LOGIC
+    //always begin : NEXT_STATE_LOGIC
+    always @ (side_sensor or walk_light_button or state) begin
         case (state)
        	    MAIN_ST_G : begin
        		    next_state <= MAIN_ST_SENS;
@@ -172,48 +199,48 @@ module traffic_fsm(clk,
     /**
      * Set all outputs depending on the current state.
      */
-    always @(posedge clk_1Hz) begin : STATE_OUTPUT_LOGIC
+    always @(state) begin : STATE_OUTPUT_LOGIC
         case(state)
             MAIN_ST_G : begin
-                {main_r, main_y, main_g} <= {0, 0, 1};
-                {side_r, side_y, side_g} <= {1, 0, 0};
-                ped_light <= 0;
+                {_main_r, _main_y, _main_g} <= {1'b0, 1'b0, 1'b1};
+                {_side_r, _side_y, _side_g} <= {1'b1, 1'b0, 1'b0};
+                _ped_light <= 0;
             end
 
             MAIN_ST_SENS : begin
-                {main_r, main_y, main_g} <= {0, 0, 1};
-                {side_r, side_y, side_g} <= {1, 0, 0};
-                ped_light <= 0;
+                {_main_r, _main_y, _main_g} <= {1'b0, 1'b0, 1'b1};
+                {_side_r, _side_y, _side_g} <= {1'b1, 1'b0, 1'b0};
+                _ped_light <= 0;
             end
 
             MAIN_ST_Y : begin
-                {main_r, main_y, main_g} <= {0, 1, 0};
-                {side_r, side_y, side_g} <= {1, 0, 0};
-                ped_light <= 0;
+                {_main_r, _main_y, _main_g} <= {1'b0, 1'b1, 1'b0};
+                {_side_r, _side_y, _side_g} <= {1'b1, 1'b0, 1'b0};
+                _ped_light <= 0;
             end
 
             PED_WALK_ON : begin
-                {main_r, main_y, main_g} <= {1, 0, 0};
-                {side_r, side_y, side_g} <= {1, 0, 0};
-                ped_light <= 1;
+                {_main_r, _main_y, _main_g} <= {1'b1, 1'b0, 1'b0};
+                {_side_r, _side_y, _side_g} <= {1'b1, 1'b0, 1'b0};
+                _ped_light <= 1;
             end
 
             SIDE_ST_G : begin
-                {main_r, main_y, main_g} <= {1, 0, 0};
-                {side_r, side_y, side_g} <= {0, 0, 1};
-                ped_light <= 0;
+                {_main_r, _main_y, _main_g} <= {1'b1, 1'b0, 1'b0};
+                {_side_r, _side_y, _side_g} <= {1'b0, 1'b0, 1'b1};
+                _ped_light <= 0;
             end
 
             SIDE_ST_SENS : begin
-                {main_r, main_y, main_g} <= {1, 0, 0};
-                {side_r, side_y, side_g} <= {0, 0, 1};
-                ped_light <= 0;
+                {_main_r, _main_y, _main_g} <= {1'b1, 1'b0, 1'b0};
+                {_side_r, _side_y, _side_g} <= {1'b0, 1'b0, 1'b1};
+                _ped_light <= 0;
             end
 
             SIDE_ST_Y : begin
-                {main_r, main_y, main_g} <= {1, 0, 0};
-                {side_r, side_y, side_g} <= {0, 1, 0};
-                ped_light <= 0;
+                {_main_r, _main_y, _main_g} <= {1'b1, 1'b0, 1'b0};
+                {_side_r, _side_y, _side_g} <= {1'b0, 1'b1, 1'b0};
+                _ped_light <= 0;
             end
       endcase
     end
