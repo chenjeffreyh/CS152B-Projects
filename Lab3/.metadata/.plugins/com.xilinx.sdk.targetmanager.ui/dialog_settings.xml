@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\Users\CS152B\Desktop\RMJ\SDK_New\EDK_hw_platform\system.bit" key="EDK_hw_platform-bitFile"/>
+	<item value="bootloop" key="EDK_hw_platform-microblaze_0-initElf"/>
+	<item value="C:\Users\CS152B\Desktop\RMJ\SDK_New\EDK_hw_platform_w_PMOD\system_bd.bmm" key="EDK_hw_platform_w_PMOD-bmmFile"/>
+	<item value="bootloop" key="EDK_hw_platform_w_PMOD-microblaze_0-initElf"/>
+	<item value="C:\Users\CS152B\Desktop\RMJ\SDK_New\EDK_hw_platform_w_PMOD\system.bit" key="EDK_hw_platform_w_PMOD-bitFile"/>
+	<item value="C:\Users\CS152B\Desktop\RMJ\SDK_New\EDK_hw_platform\system_bd.bmm" key="EDK_hw_platform-bmmFile"/>
+</section>

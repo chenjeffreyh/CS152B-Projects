@@ -1,0 +1,6 @@
+14:45:07 **** Incremental Build of configuration Debug for project rock_paper_scissors ****
+make all 
+make: Nothing to be done for `all'.
+
+14:45:08 Build Finished (took 129ms)
+

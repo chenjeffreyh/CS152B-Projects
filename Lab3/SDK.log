@@ -1,0 +1,309 @@
+14:08:48.562 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+14:09:24.953 INFO  - Project 'EDK_hw_platform' created. You can now create BSPs and application projects targeting this hardware platform. 
+14:10:58.986 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+14:11:27.886 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:12:29.511 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:16:25.086 WARN  - Terminating existing sessions on processor microblaze_0 
+14:16:34.596 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:17:08.908 WARN  - Terminating existing sessions on processor microblaze_0 
+14:17:18.412 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:25:15.855 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:39:38.719 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Unknown Error
+ 
+12:39:51.964 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Unknown Error
+ 
+12:40:14.281 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Unknown Error
+ 
+12:40:42.212 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+12:42:56.674 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:43:21.126 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:43:57.744 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:49:35.797 WARN  - Terminating existing sessions on processor microblaze_0 
+12:49:45.359 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+12:52:17.229 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:52:56.673 WARN  - Terminating existing sessions on processor microblaze_0 
+12:53:06.093 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+12:54:02.147 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:56:00.778 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+12:56:14.809 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:56:34.537 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:57:29.111 WARN  - Terminating existing sessions on processor microblaze_0 
+12:57:38.560 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+12:57:49.362 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:59:19.465 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:00:02.137 WARN  - Terminating existing sessions on processor microblaze_0 
+13:00:11.756 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:01:46.583 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:03:04.046 WARN  - Terminating existing sessions on processor microblaze_0 
+13:03:13.620 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:03:53.954 WARN  - Terminating existing sessions on processor microblaze_0 
+13:04:03.497 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:05:26.481 WARN  - Terminating existing sessions on processor microblaze_0 
+13:05:36.103 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:05:41.768 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:05:43.297 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+13:05:53.675 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:05:54.985 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+13:06:18.042 WARN  - Terminating existing sessions on processor microblaze_0 
+13:06:28.283 WARN  - Terminating existing sessions on processor microblaze_0 
+13:06:54.201 WARN  - Terminating existing sessions on processor microblaze_0 
+13:07:23.567 WARN  - Terminating existing sessions on processor microblaze_0 
+13:07:36.860 WARN  - Terminating existing sessions on processor microblaze_0 
+13:07:47.585 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:08:17.868 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:09:29.210 WARN  - Terminating existing sessions on processor microblaze_0 
+13:09:38.741 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:10:21.722 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:10:28.822 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:10:54.875 WARN  - Terminating existing sessions on processor microblaze_0 
+13:11:04.465 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:11:44.786 WARN  - Terminating existing sessions on processor microblaze_0 
+13:11:54.409 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:12:36.912 WARN  - Terminating existing sessions on processor microblaze_0 
+13:12:46.426 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:13:24.679 WARN  - Terminating existing sessions on processor microblaze_0 
+13:13:34.270 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:18:39.648 WARN  - Terminating existing sessions on processor microblaze_0 
+13:18:49.348 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:22:21.213 WARN  - Terminating existing sessions on processor microblaze_0 
+13:22:30.889 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:23:41.087 WARN  - Terminating existing sessions on processor microblaze_0 
+13:23:50.738 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:32:01.329 WARN  - Terminating existing sessions on processor microblaze_0 
+13:32:10.978 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:33:46.857 WARN  - Terminating existing sessions on processor microblaze_0 
+13:33:56.467 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:34:02.223 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:34:03.924 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+13:34:20.747 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:34:22.246 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+13:34:32.587 WARN  - Terminating existing sessions on processor microblaze_0 
+13:34:35.764 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:35:00.396 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:35:55.174 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:37:14.392 WARN  - Terminating existing sessions on processor microblaze_0 
+13:37:24.183 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:38:31.295 WARN  - Terminating existing sessions on processor microblaze_0 
+13:38:40.823 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:39:41.477 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:42:43.077 WARN  - Terminating existing sessions on processor microblaze_0 
+13:42:52.665 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:43:53.993 WARN  - Terminating existing sessions on processor microblaze_0 
+13:44:03.580 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:46:30.687 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:51:23.410 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:52:46.791 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:53:11.453 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:54:02.372 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:54:44.390 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:56:53.859 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:59:00.986 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:00:09.559 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:02:44.596 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:03:18.253 WARN  - Terminating existing sessions on processor microblaze_0 
+14:03:27.820 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:05:06.817 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:05:35.982 WARN  - Terminating existing sessions on processor microblaze_0 
+14:05:45.470 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:06:05.072 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:07:15.310 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:08:14.605 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:10:10.513 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:11:19.286 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:12:33.352 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:14:20.512 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:14:28.413 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:20:18.789 WARN  - Terminating existing sessions on processor microblaze_0 
+14:20:28.335 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:21:40.995 WARN  - Terminating existing sessions on processor microblaze_0 
+14:21:50.587 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:23:09.859 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+03:20:26.885 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+03:20:26.886 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+12:32:40.255 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+12:32:57.739 ERROR - No such port: COM4 
+12:33:23.555 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:33:25.740 ERROR - No such port: COM4 
+12:34:59.254 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:35:25.712 WARN  - Terminating existing sessions on processor microblaze_0 
+12:35:35.519 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+12:35:44.109 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:35:45.856 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+12:35:49.772 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:37:54.970 WARN  - Terminating existing sessions on processor microblaze_0 
+12:38:04.448 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+12:41:48.538 WARN  - Terminating existing sessions on processor microblaze_0 
+12:41:58.290 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+12:53:21.396 WARN  - Terminating existing sessions on processor microblaze_0 
+12:53:31.088 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+12:53:52.302 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:55:02.075 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+12:56:15.811 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:01:08.312 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:04:38.180 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:07:38.685 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:14:00.651 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:14:46.252 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:20:41.122 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:24:38.142 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:26:50.140 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:28:28.715 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:31:56.570 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:33:27.293 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:34:15.326 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+13:39:20.549 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+13:58:42.573 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:00:49.783 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:01:41.294 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+14:04:27.478 WARN  - Terminating existing sessions on processor microblaze_0 
+14:04:37.117 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform/download.bit" 
+11:01:08.022 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+11:01:08.022 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+11:48:48.000 INFO  - Processing command line option -hwspec C:\Users\CS152B\Desktop\RMJ\EDK\SDK\SDK_Export\hw\system.xml. 
+11:48:49.513 INFO  - The hardware specification for project 'EDK_hw_platform' is different from C:\Users\CS152B\Desktop\RMJ\EDK\SDK\SDK_Export\hw\system.xml. 
+11:48:49.544 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\EDK\SDK\SDK_Export\hw\system.xml into \EDK_hw_platform\system.xml. 
+11:48:49.560 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\EDK\SDK\SDK_Export\hw\system.bit into \EDK_hw_platform\system.bit. 
+11:48:49.560 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\EDK\SDK\SDK_Export\hw\system_bd.bmm into \EDK_hw_platform\system_bd.bmm. 
+11:48:51.433 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+11:48:52.400 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: keypad_8bit, driver: gpio_v3_01_a.
+ 
+11:48:53.196 INFO  - Updating MSS for Board Support Package Project: rock_paper_scissors_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: keypad_8bit, driver: gpio_v3_01_a.
+ 
+11:48:54.118 INFO  - Updating hardware inferred compiler options for hello_world. 
+11:48:54.901 INFO  - Updating hardware inferred compiler options for rock_paper_scissors. 
+11:48:54.932 INFO  - Clearing existing target manager status. 
+11:51:31.796 INFO  - Project 'EDK_hw_platform_w_PMOD' created. You can now create BSPs and application projects targeting this hardware platform. 
+11:53:33.384 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+12:08:42.369 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Unknown Error
+ 
+12:09:13.685 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+12:10:29.595 WARN  - Terminating existing sessions on processor microblaze_0 
+12:10:39.234 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+12:11:30.705 WARN  - Terminating existing sessions on processor microblaze_0 
+12:11:40.424 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+12:14:07.793 WARN  - Terminating existing sessions on processor microblaze_0 
+12:14:17.441 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+12:14:51.744 WARN  - Terminating existing sessions on processor microblaze_0 
+12:15:01.447 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+12:17:03.143 WARN  - Terminating existing sessions on processor microblaze_0 
+12:17:12.788 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+12:22:09.506 WARN  - Terminating existing sessions on processor microblaze_0 
+12:22:19.111 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+12:24:12.296 WARN  - Terminating existing sessions on processor microblaze_0 
+12:24:21.976 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+12:55:44.244 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:06:25.321 WARN  - Terminating existing sessions on processor microblaze_0 
+13:06:35.003 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:07:54.957 WARN  - Terminating existing sessions on processor microblaze_0 
+13:08:04.525 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:09:55.974 WARN  - Terminating existing sessions on processor microblaze_0 
+13:10:05.613 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:10:38.788 WARN  - Terminating existing sessions on processor microblaze_0 
+13:10:48.533 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:12:02.665 WARN  - Terminating existing sessions on processor microblaze_0 
+13:12:12.216 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:12:17.901 INFO  - System reset is completed. 
+13:12:46.827 ERROR - Unexpected error while launching program. com.xilinx.sdk.targetmanager.TMException: Error downloading program to target: 
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.loadProgram(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(Unknown Source)
+
+13:13:06.609 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:13:57.605 WARN  - Terminating existing sessions on processor microblaze_0 
+13:14:07.154 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:28:36.710 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:31:31.389 WARN  - Terminating existing sessions on processor microblaze_0 
+13:31:41.016 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:33:15.110 WARN  - Terminating existing sessions on processor microblaze_0 
+13:33:24.660 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:38:31.230 WARN  - Terminating existing sessions on processor microblaze_0 
+13:38:40.872 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:39:58.567 WARN  - Terminating existing sessions on processor microblaze_0 
+13:40:08.208 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:43:32.334 WARN  - Terminating existing sessions on processor microblaze_0 
+13:43:41.981 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:45:21.986 WARN  - Terminating existing sessions on processor microblaze_0 
+13:45:31.410 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:47:07.547 WARN  - Terminating existing sessions on processor microblaze_0 
+13:47:17.190 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:47:23.623 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:47:25.484 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+13:47:35.980 WARN  - Terminating existing sessions on processor microblaze_0 
+13:47:38.885 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:48:13.351 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+13:49:19.756 WARN  - Terminating existing sessions on processor microblaze_0 
+13:49:29.576 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+14:18:11.683 WARN  - Terminating existing sessions on processor microblaze_0 
+14:18:21.313 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+14:21:46.771 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:23:39.007 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:27:53.616 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:28:29.159 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:31:32.237 WARN  - Terminating existing sessions on processor microblaze_0 
+14:31:41.737 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+14:32:15.164 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+14:35:53.704 WARN  - Terminating existing sessions on processor microblaze_0 
+14:36:03.325 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+14:39:44.888 WARN  - Terminating existing sessions on processor microblaze_0 
+14:39:54.601 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+14:42:16.291 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+14:43:26.974 WARN  - Terminating existing sessions on processor microblaze_0 
+14:43:36.593 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
+14:44:53.744 WARN  - Terminating existing sessions on processor microblaze_0 
+14:45:03.468 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/SDK_New/EDK_hw_platform_w_PMOD/download.bit" 
