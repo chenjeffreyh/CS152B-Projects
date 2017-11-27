@@ -1,0 +1,3 @@
+MO traffic_fsm NULL modules/traffic_fsm.v vlg08/traffic__fsm.bin 1509567959
+MO latch_signal NULL latch_signal.v vlg7D/latch__signal.bin 1509567959
+MO clk_prescaler NULL modules/clk_prescaler.v vlg7A/clk__prescaler.bin 1509567959

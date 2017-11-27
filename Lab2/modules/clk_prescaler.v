@@ -44,7 +44,7 @@ module clk_prescaler(clk_in, clk_out);
      * @note This module does not support unity scaling (CLOCK_SCALE_LOG_2
      * = 0). If you want unity scaling, don't use a prescaler module!
      */
-    parameter CLOCK_SCALE_LOG_2 = 1;
+    parameter CLOCK_SCALE_LOG_2 = 26;
 
     /**
      * An internal module counter. Should be enough bits to capture the

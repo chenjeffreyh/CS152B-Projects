@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab2/traffic_fsm_ut_isim_beh.exe" -prj "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab2/traffic_fsm_ut_beh.prj" "work.traffic_fsm_ut" "work.glbl" 

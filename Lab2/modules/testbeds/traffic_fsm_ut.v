@@ -50,10 +50,13 @@ module traffic_fsm_ut();
      */
     initial begin
         clk = 0;
-        ped_btn = 0;
+        ped_btn = 1;
         traf_sense = 0;
-
+        #10
+		  ped_btn = 0; 
+		  
         #200
+		  
 
         $finish;
     end

@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab2/traffic_fsm.xst" -ofn "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab2/traffic_fsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-2 traffic_fsm.ngc traffic_fsm.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-2 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_fsm_map.ncd traffic_fsm.ngd traffic_fsm.pcf 
+par -w -intstyle ise -ol high -mt off traffic_fsm_map.ncd traffic_fsm.ncd traffic_fsm.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml traffic_fsm.twx traffic_fsm.ncd -o traffic_fsm.twr traffic_fsm.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_fsm.ut traffic_fsm.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab2/traffic_fsm.xst" -ofn "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab2/traffic_fsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-2 traffic_fsm.ngc traffic_fsm.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-2 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_fsm_map.ncd traffic_fsm.ngd traffic_fsm.pcf 
+par -w -intstyle ise -ol high -mt off traffic_fsm_map.ncd traffic_fsm.ncd traffic_fsm.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml traffic_fsm.twx traffic_fsm.ncd -o traffic_fsm.twr traffic_fsm.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_fsm.ut traffic_fsm.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab2/traffic_fsm.xst" -ofn "C:/Users/CS152B/Desktop/RMJ/RMJ-Lab2/traffic_fsm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-2 traffic_fsm.ngc traffic_fsm.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-2 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_fsm_map.ncd traffic_fsm.ngd traffic_fsm.pcf 
+par -w -intstyle ise -ol high -mt off traffic_fsm_map.ncd traffic_fsm.ncd traffic_fsm.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml traffic_fsm.twx traffic_fsm.ncd -o traffic_fsm.twr traffic_fsm.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_fsm.ut traffic_fsm.ncd 

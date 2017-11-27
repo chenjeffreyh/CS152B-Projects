@@ -1,0 +1,159 @@
+Release 14.6 Map P.68d (nt64)
+Xilinx Map Application Log File for Design 'traffic_fsm'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vlx50t-ff1136-2 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr
+off -lc off -power off -o traffic_fsm_map.ncd traffic_fsm.ngd traffic_fsm.pcf 
+Target Device  : xc5vlx50t
+Target Package : ff1136
+Target Speed   : -2
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Wed Nov 01 13:26:11 2017
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc5vlx50t' is a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+----------------------------------------------------------------------
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 6 secs 
+Total CPU  time at the beginning of Placer: 6 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:c3d3410d) REAL time: 7 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:c3d3410d) REAL time: 7 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:c3d3410d) REAL time: 7 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:c3d3410d) REAL time: 7 secs 
+
+Phase 5.33  Local Placement Optimization
+Phase 5.33  Local Placement Optimization (Checksum:c3d3410d) REAL time: 7 secs 
+
+Phase 6.32  Local Placement Optimization
+Phase 6.32  Local Placement Optimization (Checksum:c3d3410d) REAL time: 7 secs 
+
+Phase 7.2  Initial Clock and IO Placement
+
+........
+WARNING:Place:644 - A clock IOB clock component is not placed at an optimal
+   clock IOB site. The clock IOB component <ped_btn> is placed at site <G6>. The
+   clock IO site can use the fast path between the IO and the Clock buffer/GCLK
+   if the IOB is placed in the master Clock IOB Site. This is normally an ERROR
+   but the CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
+   <ped_btn.PAD> allowing your design to continue. This constraint disables all
+   clock placer rules related to the specified COMP.PIN. The use of this
+   override is highly discouraged as it may lead to very poor timing results. It
+   is recommended that this error condition be corrected in the design.
+Phase 7.2  Initial Clock and IO Placement (Checksum:f45c779) REAL time: 7 secs 
+
+Phase 8.36  Local Placement Optimization
+Phase 8.36  Local Placement Optimization (Checksum:f45c779) REAL time: 7 secs 
+
+Phase 9.30  Global Clock Region Assignment
+Phase 9.30  Global Clock Region Assignment (Checksum:f45c779) REAL time: 7 secs 
+
+Phase 10.3  Local Placement Optimization
+Phase 10.3  Local Placement Optimization (Checksum:f45c779) REAL time: 7 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:f45c779) REAL time: 7 secs 
+
+Phase 12.8  Global Placement
+..
+..
+Phase 12.8  Global Placement (Checksum:a78fbca5) REAL time: 7 secs 
+
+Phase 13.29  Local Placement Optimization
+Phase 13.29  Local Placement Optimization (Checksum:a78fbca5) REAL time: 7 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:a78fbca5) REAL time: 7 secs 
+
+Phase 15.18  Placement Optimization
+Phase 15.18  Placement Optimization (Checksum:551f57c) REAL time: 10 secs 
+
+Phase 16.5  Local Placement Optimization
+Phase 16.5  Local Placement Optimization (Checksum:551f57c) REAL time: 10 secs 
+
+Phase 17.34  Placement Validation
+Phase 17.34  Placement Validation (Checksum:551f57c) REAL time: 10 secs 
+
+Total REAL time to Placer completion: 10 secs 
+Total CPU  time to Placer completion: 10 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net next_counter_mux0000<1> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net reset_or0000 is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    3
+Slice Logic Utilization:
+  Number of Slice Registers:                    48 out of  28,800    1%
+    Number used as Flip Flops:                  36
+    Number used as Latches:                     12
+  Number of Slice LUTs:                         41 out of  28,800    1%
+    Number used as logic:                       40 out of  28,800    1%
+      Number using O6 output only:              11
+      Number using O5 output only:              23
+      Number using O5 and O6:                    6
+    Number used as exclusive route-thru:         1
+  Number of route-thrus:                        24
+    Number using O6 output only:                24
+
+Slice Logic Distribution:
+  Number of occupied Slices:                    21 out of   7,200    1%
+  Number of LUT Flip Flop pairs used:           56
+    Number with an unused Flip Flop:             8 out of      56   14%
+    Number with an unused LUT:                  15 out of      56   26%
+    Number of fully used LUT-FF pairs:          33 out of      56   58%
+    Number of unique control sets:               7
+    Number of slice register sites lost
+      to control set restrictions:              16 out of  28,800    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        10 out of     480    2%
+    Number of LOCed IOBs:                       10 out of      10  100%
+    IOB Latches:                                 7
+
+Specific Feature Utilization:
+  Number of BUFG/BUFGCTRLs:                      2 out of      32    6%
+    Number used as BUFGs:                        2
+
+Average Fanout of Non-Clock Nets:                1.93
+
+Peak Memory Usage:  496 MB
+Total REAL time to MAP completion:  10 secs 
+Total CPU time to MAP completion:   10 secs 
+
+Mapping completed.
+See MAP report file "traffic_fsm_map.mrp" for details.

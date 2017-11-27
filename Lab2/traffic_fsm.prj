@@ -1,0 +1,3 @@
+verilog work "modules/clk_prescaler.v"
+verilog work "latch_signal.v"
+verilog work "modules/traffic_fsm.v"
