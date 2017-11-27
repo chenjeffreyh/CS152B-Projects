@@ -199,7 +199,7 @@ module traffic_fsm(clk,
     end
 
     always @(posedge clk_1Hz) begin
-        counter <= counter - 1;
+        counter = counter - 1;
         if (counter == 0) begin
        	    state <= next_state;
        	    counter <= next_counter;
