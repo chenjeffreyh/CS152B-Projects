@@ -1,0 +1,2 @@
+#define GRAPHIC_WIDTH 640
+#define GRAPHIC_HEIGHT 360

@@ -1,0 +1,7 @@
+#ifndef GLOBALS_H
+#define GLOBALS_H
+
+#define GRAPHIC_WIDTH 640
+#define GRAPHIC_HEIGHT 360
+
+#endif

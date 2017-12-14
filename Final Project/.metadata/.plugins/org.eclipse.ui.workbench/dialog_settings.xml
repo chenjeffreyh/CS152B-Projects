@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="FileSystemImportWizard">
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Xilinx\14.6\ISE_DS\EDK\sw\XilinxProcessorIPLib\drivers\gpio_v3_01_a\examples"/>
+			<item value="C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\TestApp_VmodCAM\src"/>
+			<item value="C:\Users\CS152B\Downloads\Genesys_ip_cores_UCF_SDK\Genesys_ip_cores_UCF_SDK\SDK\SDK_Workspace\TFT_Demo\src"/>
+			<item value="C:\Users\CS152B\Desktop\RMJ\final_project\sample_edk\SDK\SDK_Workspace\Genesys_std_custom_ip\microblaze_0\libsrc\intc_v1_11_a"/>
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.cdt.ui.importWizardCategory"/>
+		</list>
+	</section>
+</section>

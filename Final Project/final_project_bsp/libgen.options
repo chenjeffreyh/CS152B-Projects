@@ -1,0 +1,3 @@
+PROCESSOR=microblaze_0
+REPOSITORIES=-lp C:/Xilinx/14.6/ISE_DS/pcores
+HWSPEC=../final_edk_hw_plat/system.xml

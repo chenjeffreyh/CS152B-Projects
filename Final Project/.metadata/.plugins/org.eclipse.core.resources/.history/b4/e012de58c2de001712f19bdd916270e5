@@ -1,0 +1,74 @@
+#include <stdint.h>
+#include <xio.h>
+
+#include "game_system.h"
+#include "globals.h"
+#include "xparameters.h"
+
+#ifndef GRAPHIC_SYSTEM_H
+#define GRAPHIC_SYSTEM_H
+
+/**
+ * Draw the current game state onto the monitor.
+ *
+ * @note This function assumes a clean screen (all white) to draw on! If
+ *       anything is left on the screen from a previous call to this function,
+ *       this function will not perform cleanup. To clean up, use
+ *       erase_game_state.
+ *
+ * @param game The game object to draw onto the monitor.
+ *
+ * @return True if successfully drawn, false otherwise.
+ */
+bool draw_game_state(GAME *game) {
+	return true;
+}
+
+/**
+ * Clears the current game state from the monitor and makes the screen pure
+ * white.
+ *
+ * @param game The game object to clear from the monitor.
+ *
+ * @return True if successfully cleared, false otherwise.
+ */
+bool clear_game_state(GAME *game) {
+	/*
+	 * The real implementation should be more efficient by only drawing the
+	 * pixels which need to be drawn to "clear" the screen.
+	 */
+
+	/*
+	 * For simplicity right now, we will draw every pixel and make each one
+	 * white.
+	 */
+	uint16_t posY = SCREEN_TOP_EDGE;
+	uint16_t posX = SCREEN_LEFT_EDGE;
+	uint32_t offset = SCREEN_TOP_EDGE * 2560;
+	for (; posY < SCREEN_BOT_EDGE; posY++) {
+		for (; posX < SCREEN_RIGHT_EDGE; posX++) {
+			XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR + ((offset + posX) << 1), 0xFFF);
+		}
+		offset += 2560;
+	}
+
+	XIo_Out32(lDvmaBaseAddress + blDvmaHSR, 40); // hsync
+	XIo_Out32(lDvmaBaseAddress + blDvmaHBPR, 260); // hbpr
+	XIo_Out32(lDvmaBaseAddress + blDvmaHFPR, 1540); // hfpr
+	XIo_Out32(lDvmaBaseAddress + blDvmaHTR, 1650); // htr
+	XIo_Out32(lDvmaBaseAddress + blDvmaVSR, 5); // vsync
+	XIo_Out32(lDvmaBaseAddress + blDvmaVBPR, 25); // vbpr
+	XIo_Out32(lDvmaBaseAddress + blDvmaVFPR, 745); // vfpr
+	XIo_Out32(lDvmaBaseAddress + blDvmaVTR, 750); // vtr
+
+	XIo_Out32(lDvmaBaseAddress + blDvmaFWR, 0x00000500); // frame width
+	XIo_Out32(lDvmaBaseAddress + blDvmaFHR, 0x000002D0); // frame height
+
+	XIo_Out32(lDvmaBaseAddress + blDvmaFBAR, XPAR_DDR2_SDRAM_MPMC_BASEADDR); // frame base addr
+	XIo_Out32(lDvmaBaseAddress + blDvmaFLSR, 0x00000A00); // frame line stride
+	XIo_Out32(lDvmaBaseAddress + blDvmaCR, 0x00000003); // dvma enable, dfl enable
+
+	return true;
+}
+
+#endif

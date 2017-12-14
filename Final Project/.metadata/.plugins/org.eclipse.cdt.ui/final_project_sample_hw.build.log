@@ -1,0 +1,40 @@
+15:02:36 **** Auto Build of configuration Debug for project final_project_sample_hw ****
+make all 
+'Building file: ../src/bitmap.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../final_project_sample_hw_bsp/microblaze_0/include -mxl-pattern-compare -mcpu=v7.20.d -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bitmap.d" -MT"src/bitmap.d" -o "src/bitmap.o" "../src/bitmap.c"
+../src/bitmap.c: In function 'Decode_display_bitmap':
+../src/bitmap.c:81:15: warning: unused variable 'k' [-Wunused-variable]
+../src/bitmap.c:69:9: warning: unused variable 'temp' [-Wunused-variable]
+../src/bitmap.c:68:35: warning: unused variable 'Pixel_Data2' [-Wunused-variable]
+../src/bitmap.c:68:22: warning: unused variable 'Pixel_Data1' [-Wunused-variable]
+../src/bitmap.c:68:9: warning: unused variable 'Pixel_Data0' [-Wunused-variable]
+../src/bitmap.c: In function 'Read_Bitmap_Header_Bytes':
+../src/bitmap.c:59:1: warning: control reaches end of non-void function [-Wreturn-type]
+'Finished building: ../src/bitmap.c'
+' '
+'Building file: ../src/lcd.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../final_project_sample_hw_bsp/microblaze_0/include -mxl-pattern-compare -mcpu=v7.20.d -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lcd.d" -MT"src/lcd.d" -o "src/lcd.o" "../src/lcd.c"
+../src/lcd.c: In function 'WaitForBusyFlag':
+../src/lcd.c:63:2: warning: implicit declaration of function 'XGpio_mSetDataDirection' [-Wimplicit-function-declaration]
+../src/lcd.c:63:26: error: 'XPAR_CHAR_LCD_BASEADDR' undeclared (first use in this function)
+../src/lcd.c:63:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/lcd.c:64:2: warning: implicit declaration of function 'XGpio_mSetDataReg' [-Wimplicit-function-declaration]
+../src/lcd.c:68:2: warning: implicit declaration of function 'XGpio_mReadReg' [-Wimplicit-function-declaration]
+../src/lcd.c: In function 'InitInst':
+../src/lcd.c:101:26: error: 'XPAR_CHAR_LCD_BASEADDR' undeclared (first use in this function)
+../src/lcd.c: In function 'WriteInst8':
+../src/lcd.c:133:26: error: 'XPAR_CHAR_LCD_BASEADDR' undeclared (first use in this function)
+../src/lcd.c: In function 'WriteInst':
+../src/lcd.c:156:23: error: 'XPAR_CHAR_LCD_BASEADDR' undeclared (first use in this function)
+../src/lcd.c: In function 'WriteData8':
+../src/lcd.c:180:23: error: 'XPAR_CHAR_LCD_BASEADDR' undeclared (first use in this function)
+../src/lcd.c: In function 'WriteData':
+../src/lcd.c:199:23: error: 'XPAR_CHAR_LCD_BASEADDR' undeclared (first use in this function)
+../src/lcd.c: In function 'LCDInit':
+../src/lcd.c:251:29: error: 'XPAR_CHAR_LCD_BASEADDR' undeclared (first use in this function)
+make: *** [src/lcd.o] Error 1
+
+15:02:36 Build Finished (took 456ms)
+

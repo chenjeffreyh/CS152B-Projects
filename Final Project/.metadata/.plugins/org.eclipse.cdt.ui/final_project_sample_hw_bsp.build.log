@@ -1,0 +1,43 @@
+15:00:32 **** Build of project final_project_sample_hw_bsp ****
+make -k all 
+libgen -hw ../sample_hw_plat/system.xml\
+	       -lp C:/Xilinx/14.6/ISE_DS/pcores\
+	       -pe microblaze_0 \
+	       -log libgen.log \
+	       system.mss
+libgen
+Xilinx EDK 2013.2 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -hw ../sample_hw_plat/system.xml -lp
+C:/Xilinx/14.6/ISE_DS/pcores -pe microblaze_0 -log libgen.log system.mss 
+
+
+Staging source files.
+Running DRCs.
+Running generate.
+Running post_generate.
+Running include - 'make -s include "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul -mxl-pattern-compare -mcpu=v7.20.d  -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"'.
+
+Running libs - 'make -s libs "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul -mxl-pattern-compare -mcpu=v7.20.d  -O2 -c"
+"EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"'.
+"Compiling common"
+"Compiling lldma"
+"Compiling llfifo"
+"Compiling standalone";
+"Compiling mpmc"
+"Compiling gpio"
+"Compiling lltemac"
+"Compiling uartns550"
+"Compiling bram"
+"Compiling uartlite"
+"Compiling intc"
+"Compiling cpu"
+Running execs_generate.
+'Finished building libraries'
+
+15:00:45 Build Finished (took 12s.496ms)
+

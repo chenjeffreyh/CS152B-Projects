@@ -1,0 +1,37 @@
+00:44:26 **** Auto Build of configuration Debug for project final_project ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../final_project_bsp/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:208:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:208:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+'Finished building: ../src/main.c'
+' '
+'Building target: final_project.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../final_project_bsp/microblaze_0/lib -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "final_project.elf"  ./src/cam_ctrl.o ./src/helloworld.o ./src/main.o ./src/platform.o ./src/vmodcam_cfg.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  56302	   1536	   7520	  65358	   ff4e	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck final_project.elf -hw ../../final_edk_hw_plat/system.xml -pe microblaze_0  |tee "final_project.elf.elfcheck"
+elfcheck
+Xilinx EDK 2013.2 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../final_edk_hw_plat/system.xml -pe microblaze_0
+final_project.elf 
+
+ELF file	: final_project.elf
+elfcheck passed.
+'Finished building: final_project.elf.elfcheck'
+' '
+
+00:44:28 Build Finished (took 1s.950ms)
+

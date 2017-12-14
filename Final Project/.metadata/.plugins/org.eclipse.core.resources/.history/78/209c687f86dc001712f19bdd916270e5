@@ -1,0 +1,53 @@
+#include <stdint.h>
+
+#include "globals.h"
+
+#ifndef MAZE_SYSTEM_H
+#define MAZE_SYSTEM_H
+
+/**
+ * Enumeration of the possible maze directions.
+ */
+typedef enum {
+	/*
+	 * Moving upwards.
+	 */
+	UP,
+
+	/*
+	 * Moving straight.
+	 */
+	STRAIGHT,
+
+	/*
+	 * Moving downwards.
+	 */
+	DOWN
+} MAZE_DIR;
+
+/**
+ * A full description of the maze in a single column.
+ */
+typedef struct col_def {
+	/*
+	 * The upper bound y-coordinate.
+	 */
+	uint16_t upper_bound;
+
+	/*
+	 * The lower bound y-coordinate.
+	 */
+	uint16_t lower_bound;
+
+	/*
+	 * The current direction of the maze.
+	 */
+	MAZE_DIR maze_direction;
+} COL_DEF;
+
+/**
+ * The entire maze.
+ */
+COL_DEF maze[GRAPHIC_WIDTH];
+
+#endif

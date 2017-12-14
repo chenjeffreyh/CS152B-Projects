@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="289" key="DIALOG_Y_ORIGIN"/>
+		<item value="380" key="DIALOG_HEIGHT"/>
+		<item value="639" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="TIMER" key="selection"/>
+		<list key="findhistory">
+			<item value="TIMER"/>
+			<item value="DEVICE_TIMER_COUNT"/>
+			<item value="PLAYER_RADIUS"/>
+			<item value="PLAYER_X_POS"/>
+			<item value="PLAYER_RADIU"/>
+			<item value="BUTTON"/>
+			<item value="XPAR_DDR2_SDRAM_MPMC_BASEADDR"/>
+			<item value="XPAR_DVMA_0_BASEADDR"/>
+		</list>
+		<list key="replacehistory">
+			<item value="PLAYER_SYMBOL_RADIUS"/>
+			<item value="PLAYER_X_COORD"/>
+			<item value="PLAYER_SYMBOL_RADIU"/>
+			<item value="DiscreteRead"/>
+			<item value="SetDataDirection"/>
+			<item value="DiscreteWrite"/>
+			<item value="XGpio_DiscreteWrite"/>
+			<item value="XGpio_DiscreteRead"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,6 @@
+21:28:45 **** Auto Build of project interrupt_test_bsp ****
+make -k all 
+'Finished building libraries'
+
+21:28:45 Build Finished (took 94ms)
+

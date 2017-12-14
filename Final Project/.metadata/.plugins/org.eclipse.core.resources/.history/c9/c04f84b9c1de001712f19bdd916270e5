@@ -1,0 +1,48 @@
+#include <stdint.h>
+
+#include "game_system.h"
+#include "globals.h"
+#include "xparameters.h"
+
+#ifndef GRAPHIC_SYSTEM_H
+#define GRAPHIC_SYSTEM_H
+
+/**
+ * Draw the current game state onto the monitor.
+ *
+ * @note This function assumes a clean screen (all white) to draw on! If
+ *       anything is left on the screen from a previous call to this function,
+ *       this function will not perform cleanup. To clean up, use
+ *       erase_game_state.
+ *
+ * @param game The game object to draw onto the monitor.
+ *
+ * @return True if successfully drawn, false otherwise.
+ */
+bool draw_game_state(GAME *game) {
+	return true;
+}
+
+/**
+ * Clears the current game state from the monitor and makes the screen pure
+ * white.
+ *
+ * @param game The game object to clear from the monitor.
+ *
+ * @return True if successfully cleared, false otherwise.
+ */
+bool clear_game_state(GAME *game) {
+	/*
+	 * The real implementation should be more efficient by only drawing the
+	 * pixels which need to be drawn to "clear" the screen.
+	 */
+
+	/*
+	 * For simplicity right now, we will draw every pixel and make each one
+	 * white.
+	 */
+
+	return true;
+}
+
+#endif

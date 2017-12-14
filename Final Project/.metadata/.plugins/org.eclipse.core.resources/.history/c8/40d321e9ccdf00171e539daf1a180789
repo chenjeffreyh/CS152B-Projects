@@ -1,0 +1,265 @@
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <xil_exception.h>
+#include <xintc.h>
+#include <xio.h>
+
+#include "xgpio.h"
+#include "xparameters.h"
+//#include "cam_ctrl_header.h"
+#include "game_system.h"
+#include "globals.h"
+#include "graphic_system.h"
+#include "mb_interface.h"
+#include "vmodcam_header.h"
+
+/*
+#define blDvmaCR		0x00000000 // Control Reg Offset
+#define blDvmaFWR		0x00000004 // Frame Width Reg Offset
+#define blDvmaFHR		0x00000008 // Frame Height Reg Offset
+#define blDvmaFBAR	0x0000000c // Frame Base Addr Reg Offset
+#define blDvmaFLSR	0x00000010 // Frame Line Stride Reg Offeset
+#define blDvmaHSR		0x00000014 // H Sync Reg Offset
+#define blDvmaHBPR	0x00000018 // H Back Porch Reg Offset
+#define blDvmaHFPR	0x0000001c // H Front Porch Reg Offset
+#define blDvmaHTR		0x00000020 // H Total Reg Offset
+#define blDvmaVSR		0x00000024 // V Sync Reg Offset
+#define blDvmaVBPR	0x00000028 // V Back Porch Reg Offset
+#define blDvmaVFPR	0x0000002c // V Front Porch Reg Offset
+#define blDvmaVTR		0x00000030 // V Total Reg Offset
+*/
+
+#define BIT_0 (0x1)
+#define BIT_1 (0x2)
+#define BIT_2 (0x4)
+
+static XGpio ENC_SIG_A;
+static XGpio ENC_SIG_B;
+static XGpio BUTTON;
+static XIntc myIntc;
+static int new_offset = 0;
+
+static GAME game;
+
+static char message[200];
+
+int SetupInterrupts();
+
+int main() {
+	u32 lDvmaBaseAddress = XPAR_DVMA_0_BASEADDR;
+	uint16_t posX, posY;
+	
+	uint32_t offset = 0;
+	//char string_text[200];
+
+	XIo_Out32(lDvmaBaseAddress + blDvmaHSR, 40); // hsync
+	XIo_Out32(lDvmaBaseAddress + blDvmaHBPR, 260); // hbpr
+	XIo_Out32(lDvmaBaseAddress + blDvmaHFPR, 1540); // hfpr
+	XIo_Out32(lDvmaBaseAddress + blDvmaHTR, 1650); // htr
+	XIo_Out32(lDvmaBaseAddress + blDvmaVSR, 5); // vsync
+	XIo_Out32(lDvmaBaseAddress + blDvmaVBPR, 25); // vbpr
+	XIo_Out32(lDvmaBaseAddress + blDvmaVFPR, 745); // vfpr
+	XIo_Out32(lDvmaBaseAddress + blDvmaVTR, 750); // vtr
+
+	XIo_Out32(lDvmaBaseAddress + blDvmaFWR, 0x00000500); // frame width
+	XIo_Out32(lDvmaBaseAddress + blDvmaFHR, 0x000002D0); // frame height
+
+	XIo_Out32(lDvmaBaseAddress + blDvmaFBAR, XPAR_DDR2_SDRAM_MPMC_BASEADDR); // frame base addr
+	XIo_Out32(lDvmaBaseAddress + blDvmaFLSR, 0x00000A00); // frame line stride
+	XIo_Out32(lDvmaBaseAddress + blDvmaCR, 0x00000003); // dvma enable, dfl enable
+
+	/*
+	 * Clear SDRAM first and make the screen black.
+	 */
+	for(posY = 0; posY < 720; posY++) {
+		for(posX = 0; posX < 1280; posX++) {
+			XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR + ((offset + posX) << 1), 0x0);
+		}
+		offset += 2560;
+	}
+
+	/*
+	 * Initialize the GPIO for the encoder and the push button.
+	 */
+	XGpio_Initialize(&ENC_SIG_A, XPAR_ENC_SIG_A_DEVICE_ID);
+	XGpio_Initialize(&ENC_SIG_B, XPAR_ENC_SIG_B_DEVICE_ID);
+	XGpio_Initialize(&BUTTON, XPAR_BUTTON_DEVICE_ID);
+
+	XGpio_SetDataDirection(&ENC_SIG_A, 1, 0xFF);
+	XGpio_SetDataDirection(&ENC_SIG_B, 1, 0xFF);
+	XGpio_SetDataDirection(&BUTTON, 1, 0x1);
+
+	/*
+	 * Set up the interrupt system for reading the encoders.
+	 */
+	SetupInterrupts();
+	microblaze_enable_interrupts();
+
+	initialize_game(&game);
+
+	offset = SCREEN_TOP_EDGE * 2560;
+
+	for (posY = SCREEN_TOP_EDGE; posY < SCREEN_BOT_EDGE; posY++) {
+		for (posX = SCREEN_LEFT_EDGE; posX < SCREEN_RIGHT_EDGE; posX++) {
+			XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR + ((offset + posX) << 1), 0xFFF);
+		}
+		offset += 2560;
+	}
+
+	uint16_t maze_index = game.maze_front;
+	for (posX = SCREEN_LEFT_EDGE; posX < SCREEN_RIGHT_EDGE; posX++) {
+		XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+				(((uint32_t)(game.maze[maze_index].upper_bound + SCREEN_TOP_EDGE)*2560 + posX) << 1), 0x0);
+		XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+				(((uint32_t)(game.maze[maze_index].lower_bound + SCREEN_TOP_EDGE)*2560 + posX) << 1), 0x0);
+
+		maze_index++;
+	}
+
+
+
+	int last_pos = new_offset;
+	while (!game.game_over) {
+		propagate_game(&game, new_offset - last_pos);
+		last_pos = new_offset;
+
+		sprintf(message, "%s%d%s%d\n\r", "New bounds are: ", game.maze[game.maze_back].upper_bound, " and ", game.maze[game.maze_back].lower_bound);
+		print(message);
+
+		/*
+		 * Erase the last maze configuration.
+		 */
+		maze_index = game.maze_back;
+		for (posX = SCREEN_LEFT_EDGE; posX < SCREEN_RIGHT_EDGE; posX++) {
+			XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+					((((uint32_t)(game.maze[maze_index].upper_bound + SCREEN_TOP_EDGE))*2560 + posX) << 1), 0xFFF);
+			XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+					((((uint32_t)(game.maze[maze_index].upper_bound - 1 + SCREEN_TOP_EDGE))*2560 + posX) << 1), 0xFFF);
+			XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+					((((uint32_t)(game.maze[maze_index].lower_bound + SCREEN_TOP_EDGE))*2560 + posX) << 1), 0xFFF);
+			XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+					((((uint32_t)(game.maze[maze_index].lower_bound + 1 + SCREEN_TOP_EDGE))*2560 + posX) << 1), 0xFFF);
+
+			maze_index = (maze_index + 1) % GRAPHIC_WIDTH;
+		}
+
+		/*
+		 * Clear the player symbol.
+		 */
+		int player_coord_x, player_coord_y;
+		for (player_coord_x = -PLAYER_SYMBOL_RADIUS; player_coord_x <= PLAYER_SYMBOL_RADIUS; player_coord_x++) {
+			for (player_coord_y = -PLAYER_SYMBOL_RADIUS; player_coord_y <= PLAYER_SYMBOL_RADIUS; player_coord_y++) {
+				XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+						((((int32_t)((int32_t)game.player_last_pos + player_coord_y + SCREEN_TOP_EDGE))*2560 + PLAYER_X_COORD + player_coord_x + SCREEN_LEFT_EDGE) << 1), WHITE);
+			}
+		}
+
+		/*
+		 * Draw the latest maze configuration.
+		 */
+		maze_index = game.maze_front;
+		uint16_t track_color = rand() % 4096;
+		for (posX = SCREEN_LEFT_EDGE; posX < SCREEN_RIGHT_EDGE; posX++) {
+			XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+					((((uint32_t)(game.maze[maze_index].upper_bound + SCREEN_TOP_EDGE))*2560 + posX) << 1), track_color);
+			XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+					((((uint32_t)(game.maze[maze_index].upper_bound - 1 + SCREEN_TOP_EDGE))*2560 + posX) << 1), track_color);
+			XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+					((((uint32_t)(game.maze[maze_index].lower_bound + SCREEN_TOP_EDGE))*2560 + posX) << 1), track_color);
+			XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+					((((uint32_t)(game.maze[maze_index].lower_bound + 1 + SCREEN_TOP_EDGE))*2560 + posX) << 1), track_color);
+
+			maze_index = (maze_index + 1) % GRAPHIC_WIDTH;
+		}
+
+		/*
+		 * Draw the player symbol.
+		 */
+		for (player_coord_x = -PLAYER_SYMBOL_RADIUS; player_coord_x <= PLAYER_SYMBOL_RADIUS; player_coord_x++) {
+			for (player_coord_y = -PLAYER_SYMBOL_RADIUS; player_coord_y <= PLAYER_SYMBOL_RADIUS; player_coord_y++) {
+				XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+						((((int32_t)((int32_t)game.player_pos + player_coord_y + SCREEN_TOP_EDGE))*2560 + PLAYER_X_COORD + player_coord_x + SCREEN_LEFT_EDGE) << 1), BLACK);
+			}
+		}
+
+		int j;
+		for (j = 0; j < 150000; j++) {}
+	}
+
+	/*
+	 * Shade the player symbol red, indicating death.
+	 */
+	int player_coord_x, player_coord_y;
+	for (player_coord_x = -PLAYER_SYMBOL_RADIUS; player_coord_x <= PLAYER_SYMBOL_RADIUS; player_coord_x++) {
+		for (player_coord_y = -PLAYER_SYMBOL_RADIUS; player_coord_y <= PLAYER_SYMBOL_RADIUS; player_coord_y++) {
+			XIo_Out16(XPAR_DDR2_SDRAM_MPMC_BASEADDR +
+					((((int32_t)((int32_t)game.player_last_pos + player_coord_y + SCREEN_TOP_EDGE))*2560 + PLAYER_X_COORD + player_coord_x + SCREEN_LEFT_EDGE) << 1), RED);
+		}
+	}
+
+	sprintf(message, "%s%d\n\r", "Game over! Your score was: ", game.score);
+	while(1) {}
+
+	/*
+	while(1) {
+		uint16_t read_in_a = XGpio_DiscreteRead(&ENC_SIG_A, 1);
+		uint16_t read_in_b = XGpio_DiscreteRead(&ENC_SIG_B, 1);
+		uint16_t button_state = XGpio_DiscreteRead(&BUTTON, 1);
+		sprintf(string_text, "%s%d%s%d%s%d\n\r", "Displaying offset: ", read_in_a, ", ", read_in_b, ", ", button_state);
+		print(string_text);
+		sprintf(string_text, "%d\n\r", new_offset);
+		print(string_text);
+	}
+	*/
+	return 0;
+}
+
+void test_ih(void *InstancePtr) {
+	XGpio *GpioPtr = (XGpio *) InstancePtr;
+	XGpio_InterruptDisable(GpioPtr, XPAR_ENC_SIG_A_IP2INTC_IRPT_MASK);
+
+	new_offset = (XGpio_DiscreteRead(&ENC_SIG_A, 1) == XGpio_DiscreteRead(&ENC_SIG_B, 1)) ?
+			(new_offset + 1) : (new_offset - 2);
+
+	int i = 0;
+	for (; i < 1000; i++) {}
+
+	(void)XGpio_InterruptClear(GpioPtr, XPAR_ENC_SIG_A_IP2INTC_IRPT_MASK);
+	XGpio_InterruptEnable(GpioPtr, XPAR_ENC_SIG_A_IP2INTC_IRPT_MASK);
+}
+
+int SetupInterrupts() {
+	XGpio_InterruptEnable(&ENC_SIG_A, XPAR_ENC_SIG_A_IP2INTC_IRPT_MASK);
+	XGpio_InterruptGlobalEnable(&ENC_SIG_A);
+
+	int Result;
+	XIntc *IntcInstancePtr = &myIntc;
+
+	Result = XIntc_Initialize(IntcInstancePtr, XPAR_INTC_0_DEVICE_ID);
+	if (Result != XST_SUCCESS) {
+		return Result;
+	}
+
+	Result = XIntc_Connect(IntcInstancePtr, XPAR_INTC_0_GPIO_1_VEC_ID,
+			(Xil_ExceptionHandler)test_ih, &ENC_SIG_A);
+	if (Result != XST_SUCCESS) {
+			return Result;
+	}
+
+	Result = XIntc_Start(IntcInstancePtr, XIN_REAL_MODE);
+	if (Result != XST_SUCCESS) {
+		return Result;
+	}
+
+	XIntc_Enable(IntcInstancePtr, XPAR_INTC_0_GPIO_1_VEC_ID);
+
+	Xil_ExceptionInit();
+
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
+			(Xil_ExceptionHandler)XIntc_InterruptHandler, IntcInstancePtr);
+
+	Xil_ExceptionEnable();
+
+	return XST_SUCCESS;
+}

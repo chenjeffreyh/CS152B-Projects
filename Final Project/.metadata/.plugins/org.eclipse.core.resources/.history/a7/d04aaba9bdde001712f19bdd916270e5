@@ -1,0 +1,79 @@
+#include <stdbool.h>
+#include <stdint.h>
+
+#include "maze_system.h"
+
+#ifndef GAME_SYSTEM_H
+#define GAME_SYSTEM_H
+
+/**
+ * Game parameters.
+ *
+ * @{
+ */
+#define START_WIDTH 30
+#define START_SPEED 1
+#define MIN_WIDTH 15
+#define MAX_SPEED 10
+#define PLAYER_X_COORD 5
+#define PLAYER_Y_START_COORD 180
+/**
+ * @}
+ */
+
+/**
+ * A top-level game manager.
+ */
+typedef struct game {
+	/**
+	 * Whether or not the game has been initialized and is ready to be played.
+	 */
+	bool initialized;
+
+	/**
+	 * The extent of the maze in memory, implemented as a ring buffer.
+	 */
+	COL_DEF maze[GRAPHIC_WIDTH];
+
+	/**
+	 * The index to the front of the maze.
+	 */
+	uint16_t maze_front;
+
+	/**
+	 * The current maze width.
+	 */
+	uint8_t maze_width;
+
+	/**
+	 * The current maze speed.
+	 */
+	uint8_t maze_speed;
+
+	/**
+	 * The player's current y-coordinate position.
+	 */
+	uint16_t player_pos;
+
+} GAME = {.initialized = false};
+
+bool initialize_game(GAME *game) {
+	uint16_t i = 0;
+
+	for (; i < GRAPHIC_WIDTH; i++) {
+		game->maze[i].lower_bound = PLAYER_Y_START_COORD + START_WIDTH/2;
+		game->maze[i].upper_bound = PLAYER_Y_START_COORD - START_WIDTH/2;
+		game->maze[i].maze_direction = STRAIGHT;
+	}
+
+	game->maze_front = 0;
+
+	game->maze_width = START_WIDTH;
+	game->maze_speed = START_SPEED;
+
+	game->player_pos = PLAYER_Y_START_COORD;
+
+	game->initialized = true;
+}
+
+#endif

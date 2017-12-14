@@ -1,0 +1,1018 @@
+13:32:41.141 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+13:33:58.869 INFO  - Project 'final_project_hw_plat' created. You can now create BSPs and application projects targeting this hardware platform. 
+14:00:38.884 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+14:25:56.450 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+14:25:56.479 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+14:25:56.487 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+14:25:57.691 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:26:00.774 INFO  - Updating MSS for Board Support Package Project: final_project_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: char_lcd, driver: gpio_v3_01_a.
+ 
+14:26:01.643 INFO  - Updating hardware inferred compiler options for final_project. 
+14:26:01.670 INFO  - Clearing existing target manager status. 
+14:26:04.391 INFO  - Closing and re-opening the MSS file of ther project final_project_bsp 
+14:26:04.626 INFO  - Closing and re-opening the MSS file of ther project final_project_bsp 
+14:26:04.804 INFO  - Closing and re-opening the MSS file of ther project final_project_bsp 
+14:26:04.906 INFO  - Closing and re-opening the MSS file of ther project final_project_bsp 
+14:26:05.991 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+14:27:23.156 INFO  - Project final_project_bsp was a BSP project. Please update references. 
+14:27:23.162 ERROR - SDK has detected that project final_project_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+14:28:02.237 INFO  - Project 'final_project_hw_plat' created. You can now create BSPs and application projects targeting this hardware platform. 
+14:59:40.237 INFO  - Project 'sample_hw_plat' created. You can now create BSPs and application projects targeting this hardware platform. 
+15:12:21.840 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+15:23:34.447 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+15:23:34.463 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+15:23:34.463 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+15:23:35.623 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:23:37.207 INFO  - Updating hardware inferred compiler options for final_project. 
+15:23:37.238 INFO  - Clearing existing target manager status. 
+15:23:38.244 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+15:37:16.597 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+15:48:58.454 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+15:48:58.469 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+15:48:58.469 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+15:48:59.314 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:49:00.904 INFO  - Updating hardware inferred compiler options for final_project. 
+15:49:00.936 INFO  - Clearing existing target manager status. 
+15:49:01.936 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+16:01:30.772 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+16:12:28.102 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+16:12:28.118 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+16:12:28.134 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+16:12:28.978 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:12:29.775 INFO  - Updating MSS for Board Support Package Project: final_project_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: xps_intc_0, driver: intc_v2_06_a.
+ 
+16:12:30.586 INFO  - Updating hardware inferred compiler options for final_project. 
+16:12:30.601 INFO  - Clearing existing target manager status. 
+16:12:31.616 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+16:33:26.531 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+16:33:26.531 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+16:36:09.508 INFO  - Processing command line option -hwspec C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml. 
+16:36:47.042 INFO  - Processing command line option -hwspec C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml. 
+16:43:10.568 INFO  - Project 'final_project_hw_plat' created. You can now create BSPs and application projects targeting this hardware platform. 
+16:47:29.189 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+16:47:52.858 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+16:49:49.105 WARN  - Terminating existing sessions on processor microblaze_0 
+16:49:57.203 ERROR - FPGA Configuration failed.Failed to download the bit file
+
+    Failed to program device 1 with bitstream C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit
+ 
+16:50:12.517 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:02:16.912 WARN  - Terminating existing sessions on processor microblaze_0 
+17:02:27.651 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:02:36.314 ERROR - Port COM4 is already in use. 
+17:03:20.850 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:03:45.900 WARN  - Terminating existing sessions on processor microblaze_0 
+17:03:55.471 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:04:03.197 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:04:05.493 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+17:04:16.264 WARN  - Terminating existing sessions on processor microblaze_0 
+17:04:48.735 WARN  - Terminating existing sessions on processor microblaze_0 
+17:04:55.798 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:05:38.213 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:07:01.883 WARN  - Terminating existing sessions on processor microblaze_0 
+17:07:11.483 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:07:18.123 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:07:19.653 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+17:07:24.062 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:07:50.311 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:08:50.110 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to lock the JTAG cable for exclusive access
+
+ 
+17:09:39.670 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to lock the JTAG cable for exclusive access
+
+ 
+17:09:45.406 WARN  - Terminating existing sessions on processor microblaze_0 
+17:09:56.118 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:11:42.128 WARN  - Terminating existing sessions on processor microblaze_0 
+17:11:51.674 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:11:58.221 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:11:59.689 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+17:12:05.472 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:12:33.674 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:14:17.107 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+17:14:52.657 WARN  - Terminating existing sessions on processor microblaze_0 
+17:15:02.052 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:15:09.930 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:15:11.898 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+17:15:17.918 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:15:48.261 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:19:31.176 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+17:19:31.191 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+17:19:31.191 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+17:44:16.053 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:52:17.059 WARN  - Terminating existing sessions on processor microblaze_0 
+17:52:27.792 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+17:55:34.009 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+18:09:00.449 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+18:09:00.464 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+18:09:00.480 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+18:09:01.668 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+18:09:02.558 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+18:09:04.323 INFO  - Updating hardware inferred compiler options for final_project. 
+18:09:05.105 INFO  - Updating hardware inferred compiler options for hello_world. 
+18:09:05.120 INFO  - Clearing existing target manager status. 
+18:09:26.639 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+18:14:13.182 WARN  - Terminating existing sessions on processor microblaze_0 
+18:14:22.778 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+18:14:30.199 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:14:32.057 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+18:14:37.831 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:15:05.039 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+18:16:13.137 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+18:16:13.153 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+18:16:13.168 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+18:25:26.702 INFO  - The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace. 
+18:25:48.475 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+18:28:39.305 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+19:10:24.193 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+19:10:24.193 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+19:10:24.209 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+19:10:25.131 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+19:10:26.006 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+19:10:27.662 INFO  - Updating hardware inferred compiler options for final_project. 
+19:10:28.460 INFO  - Updating hardware inferred compiler options for hello_world. 
+19:10:28.476 INFO  - Clearing existing target manager status. 
+19:10:48.822 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+19:11:36.382 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_project_hw_plat/download.bit" 
+13:53:55.865 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to lock the JTAG cable for exclusive access
+
+ 
+13:55:58.911 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to lock the JTAG cable for exclusive access
+
+ 
+20:25:02.217 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+20:25:02.218 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+12:45:37.956 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+13:34:17.889 INFO  - Processing command line option -hwspec C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml. 
+13:34:19.773 INFO  - The hardware specification for project 'final_project_hw_plat' is different from C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml. 
+13:34:19.818 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+13:34:19.835 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+13:34:19.842 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+13:34:21.036 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+13:34:22.113 INFO  - Updating MSS for Board Support Package Project: final_project_bsp.
+		 The following driver assignments were removed:
+			Peripheral Instance: char_lcd, driver: gpio_v3_01_a.
+			Peripheral Instance: dip_switches_8bit, driver: gpio_v3_01_a.
+			Peripheral Instance: flash, driver: emc_v3_01_a.
+			Peripheral Instance: gpio_encoders_in, driver: gpio_v3_01_a.
+			Peripheral Instance: leds_8bit, driver: gpio_v3_01_a.
+			Peripheral Instance: plbv46_plbv46_bridge_0, driver: generic_v1_00_a.
+			Peripheral Instance: push_buttons_7bit, driver: gpio_v3_01_a.
+			Peripheral Instance: rs232_uart_0, driver: uartns550_v2_01_a.
+			Peripheral Instance: rs232_uart_1, driver: uartlite_v2_01_a.
+			Peripheral Instance: xps_intc_0, driver: intc_v2_06_a.
+			Peripheral Instance: xps_tft_0, driver: tft_v3_02_a.
+		 The following parameters were removed:
+			Component: standalone_v3_10_a, parameter: stdin.
+			Component: standalone_v3_10_a, parameter: stdout.
+		 The following new driver assignments were made:
+			Peripheral Instance: cam_ctrl_0, driver: generic_v1_00_a.
+			Peripheral Instance: cam_ctrl_1, driver: generic_v1_00_a.
+			Peripheral Instance: cam_iic_0, driver: iic_v2_07_a.
+			Peripheral Instance: cam_iic_1, driver: iic_v2_07_a.
+			Peripheral Instance: dvma_0, driver: generic_v1_00_a.
+			Peripheral Instance: hdmi_0, driver: generic_v1_00_a.
+			Peripheral Instance: rs232_uart_0, driver: uartlite_v2_01_a.
+ 
+13:34:22.908 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following driver assignments were removed:
+			Peripheral Instance: char_lcd, driver: gpio_v3_01_a.
+			Peripheral Instance: dip_switches_8bit, driver: gpio_v3_01_a.
+			Peripheral Instance: flash, driver: emc_v3_01_a.
+			Peripheral Instance: gpio_encoders_in, driver: gpio_v3_01_a.
+			Peripheral Instance: leds_8bit, driver: gpio_v3_01_a.
+			Peripheral Instance: plbv46_plbv46_bridge_0, driver: generic_v1_00_a.
+			Peripheral Instance: push_buttons_7bit, driver: gpio_v3_01_a.
+			Peripheral Instance: rs232_uart_0, driver: uartns550_v2_01_a.
+			Peripheral Instance: rs232_uart_1, driver: uartlite_v2_01_a.
+			Peripheral Instance: xps_intc_0, driver: intc_v2_06_a.
+			Peripheral Instance: xps_tft_0, driver: tft_v3_02_a.
+		 The following parameters were removed:
+			Component: standalone_v3_10_a, parameter: stdin.
+			Component: standalone_v3_10_a, parameter: stdout.
+		 The following new driver assignments were made:
+			Peripheral Instance: cam_ctrl_0, driver: generic_v1_00_a.
+			Peripheral Instance: cam_ctrl_1, driver: generic_v1_00_a.
+			Peripheral Instance: cam_iic_0, driver: iic_v2_07_a.
+			Peripheral Instance: cam_iic_1, driver: iic_v2_07_a.
+			Peripheral Instance: dvma_0, driver: generic_v1_00_a.
+			Peripheral Instance: hdmi_0, driver: generic_v1_00_a.
+			Peripheral Instance: rs232_uart_0, driver: uartlite_v2_01_a.
+ 
+13:34:23.875 INFO  - Updating hardware inferred compiler options for final_project. 
+13:34:24.671 INFO  - Updating hardware inferred compiler options for hello_world. 
+13:34:24.702 INFO  - Clearing existing target manager status. 
+13:46:43.537 INFO  - Project 'final_edk_hw_plat' created. You can now create BSPs and application projects targeting this hardware platform. 
+13:48:49.825 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+13:49:52.883 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+13:50:10.964 INFO  - System reset is completed. 
+13:50:54.710 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+13:52:57.211 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:06:54.755 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:13:08.670 WARN  - Terminating existing sessions on processor microblaze_0 
+14:13:18.462 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:13:56.812 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:14:22.146 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:16:32.057 WARN  - Terminating existing sessions on processor microblaze_0 
+14:16:41.943 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:28:06.809 WARN  - Terminating existing sessions on processor microblaze_0 
+14:28:16.398 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:31:31.822 WARN  - Terminating existing sessions on processor microblaze_0 
+14:31:41.487 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:31:53.238 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:31:55.859 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+14:32:00.053 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:32:34.055 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:39:58.239 WARN  - Terminating existing sessions on processor microblaze_0 
+14:40:07.874 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:41:29.609 WARN  - Terminating existing sessions on processor microblaze_0 
+14:41:38.947 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:41:44.173 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:41:46.095 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+14:41:56.956 WARN  - Terminating existing sessions on processor microblaze_0 
+14:42:01.717 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:42:28.627 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:44:36.249 WARN  - Terminating existing sessions on processor microblaze_0 
+14:44:45.728 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:46:36.306 WARN  - Terminating existing sessions on processor microblaze_0 
+14:46:45.940 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:48:07.897 WARN  - Terminating existing sessions on processor microblaze_0 
+14:48:17.516 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:51:35.261 WARN  - Terminating existing sessions on processor microblaze_0 
+14:51:44.905 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:55:14.198 WARN  - Terminating existing sessions on processor microblaze_0 
+14:55:23.756 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:56:20.728 WARN  - Terminating existing sessions on processor microblaze_0 
+14:56:30.286 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:08:41.234 WARN  - Terminating existing sessions on processor microblaze_0 
+15:08:50.781 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:15:35.199 WARN  - Terminating existing sessions on processor microblaze_0 
+15:15:44.772 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:26:36.918 WARN  - Terminating existing sessions on processor microblaze_0 
+15:26:46.363 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:26:51.889 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:26:53.449 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+15:26:57.291 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:27:32.144 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:32:58.890 WARN  - Terminating existing sessions on processor microblaze_0 
+15:33:08.450 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:35:21.199 WARN  - Terminating existing sessions on processor microblaze_0 
+15:35:30.783 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:36:47.679 WARN  - Terminating existing sessions on processor microblaze_0 
+15:36:57.256 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:38:56.495 WARN  - Terminating existing sessions on processor microblaze_0 
+15:39:06.176 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:41:45.282 WARN  - Terminating existing sessions on processor microblaze_0 
+15:41:54.875 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:45:57.924 WARN  - Terminating existing sessions on processor microblaze_0 
+15:46:07.437 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:46:57.587 WARN  - Terminating existing sessions on processor microblaze_0 
+15:47:07.083 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:09:55.807 WARN  - Terminating existing sessions on processor microblaze_0 
+16:10:05.399 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:10:44.636 WARN  - Terminating existing sessions on processor microblaze_0 
+16:10:54.167 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:10:58.816 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:11:07.230 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+16:11:11.348 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:11:36.443 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:11:42.935 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+16:11:42.950 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+16:11:51.706 ERROR - Unexpected error while issuing command {"command": "xdisconnect -cable"} to XMD: java.net.SocketException: Connection reset by peer: socket write error 
+16:12:01.299 ERROR - Unexpected error while issuing command {"command": "xdisconnect -cable"} to XMD: java.net.SocketException: Connection reset by peer: socket write error 
+16:12:31.654 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:16:27.103 WARN  - Terminating existing sessions on processor microblaze_0 
+16:16:36.689 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:17:16.459 WARN  - Terminating existing sessions on processor microblaze_0 
+16:17:26.047 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:17:32.009 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:17:33.321 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+16:17:36.856 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:18:05.963 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:18:31.518 WARN  - Terminating existing sessions on processor microblaze_0 
+16:18:41.084 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:00:15.012 INFO  - Project final_edk_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+18:19:11.856 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_edk_hw_plat\system.xml. 
+18:19:11.872 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_edk_hw_plat\system.bit. 
+18:19:11.872 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_edk_hw_plat\system_bd.bmm. 
+18:19:12.964 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+18:19:13.978 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+18:19:15.647 INFO  - Updating MSS for Board Support Package Project: final_project_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: gpio_encoder_in, driver: gpio_v3_01_a.
+			Peripheral Instance: xps_intc_0, driver: intc_v2_06_a.
+ 
+18:19:16.614 INFO  - Updating hardware inferred compiler options for final_project. 
+18:19:16.630 INFO  - Clearing existing target manager status. 
+18:19:21.981 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+18:19:25.961 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+18:19:25.961 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+18:19:25.977 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+18:19:26.835 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+18:19:41.615 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: gpio_encoder_in, driver: gpio_v3_01_a.
+			Peripheral Instance: xps_intc_0, driver: intc_v2_06_a.
+ 
+18:19:42.660 INFO  - Updating hardware inferred compiler options for hello_world. 
+18:19:42.676 INFO  - Clearing existing target manager status. 
+18:19:43.707 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+18:24:03.089 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:33:18.122 INFO  - Project final_edk_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+18:47:56.050 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_edk_hw_plat\system.xml. 
+18:47:56.065 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_edk_hw_plat\system.bit. 
+18:47:56.081 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_edk_hw_plat\system_bd.bmm. 
+18:47:56.939 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+18:47:58.530 INFO  - Updating hardware inferred compiler options for final_project. 
+18:47:58.546 INFO  - Clearing existing target manager status. 
+18:48:03.958 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+18:48:48.055 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+18:48:48.057 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+18:48:48.073 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+18:48:48.970 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+18:48:50.553 INFO  - Updating hardware inferred compiler options for hello_world. 
+18:48:50.569 INFO  - Clearing existing target manager status. 
+18:48:51.583 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+18:49:50.094 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:50:20.549 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:51:35.749 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:01:06.896 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:01:44.530 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:04:19.559 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:07:55.597 WARN  - Terminating existing sessions on processor microblaze_0 
+19:08:05.191 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:25:52.775 WARN  - Terminating existing sessions on processor microblaze_0 
+19:26:02.396 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:33:21.677 WARN  - Terminating existing sessions on processor microblaze_0 
+19:33:31.337 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:34:37.332 WARN  - Terminating existing sessions on processor microblaze_0 
+19:34:46.958 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:37:31.913 WARN  - Terminating existing sessions on processor microblaze_0 
+19:37:41.522 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:38:59.986 WARN  - Terminating existing sessions on processor microblaze_0 
+19:39:09.623 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:45:13.389 INFO  - Project final_edk_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+19:57:37.055 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_edk_hw_plat\system.xml. 
+19:57:37.070 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_edk_hw_plat\system.bit. 
+19:57:37.070 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_edk_hw_plat\system_bd.bmm. 
+19:57:38.194 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+19:57:39.052 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+19:57:39.863 INFO  - Updating hardware inferred compiler options for final_project. 
+19:57:39.894 INFO  - Clearing existing target manager status. 
+19:57:45.563 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+19:57:47.060 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+19:57:47.076 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+19:57:47.092 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+19:57:47.965 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+19:57:49.558 INFO  - Updating hardware inferred compiler options for hello_world. 
+19:57:49.605 INFO  - Clearing existing target manager status. 
+19:57:50.619 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+19:58:24.899 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+20:22:10.794 WARN  - Terminating existing sessions on processor microblaze_0 
+20:22:20.373 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+20:22:58.546 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+20:24:38.628 WARN  - Terminating existing sessions on processor microblaze_0 
+20:24:48.222 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+20:28:08.434 WARN  - Terminating existing sessions on processor microblaze_0 
+20:28:18.060 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:09:10.631 WARN  - Terminating existing sessions on processor microblaze_0 
+21:09:20.245 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:11:12.484 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:15:23.398 WARN  - Terminating existing sessions on processor microblaze_0 
+21:15:33.045 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:30:30.657 INFO  - Project final_edk_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+21:46:46.084 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_edk_hw_plat\system.xml. 
+21:46:46.099 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_edk_hw_plat\system.bit. 
+21:46:46.099 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_edk_hw_plat\system_bd.bmm. 
+21:46:46.928 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+21:46:47.708 INFO  - Updating MSS for Board Support Package Project: final_project_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: button, driver: gpio_v3_01_a.
+ 
+21:46:48.488 INFO  - Updating MSS for Board Support Package Project: interrupt_test_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: button, driver: gpio_v3_01_a.
+ 
+21:46:49.330 INFO  - Updating hardware inferred compiler options for final_project. 
+21:46:50.141 INFO  - Updating hardware inferred compiler options for interrupt_test. 
+21:46:50.157 INFO  - Clearing existing target manager status. 
+21:46:50.174 INFO  - Closing and re-opening the MSS file of ther project final_project_bsp 
+21:46:50.253 INFO  - Closing and re-opening the MSS file of ther project final_project_bsp 
+21:46:50.331 INFO  - Closing and re-opening the MSS file of ther project interrupt_test_bsp 
+21:46:50.487 INFO  - Closing and re-opening the MSS file of ther project interrupt_test_bsp 
+21:46:51.672 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+21:46:54.262 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+21:47:05.579 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+21:47:05.595 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+21:47:05.611 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+21:47:06.515 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+21:47:10.388 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: button, driver: gpio_v3_01_a.
+ 
+21:47:21.952 INFO  - Updating hardware inferred compiler options for hello_world. 
+21:47:21.968 INFO  - Clearing existing target manager status. 
+21:47:21.983 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+21:50:04.466 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:51:01.917 WARN  - Terminating existing sessions on processor microblaze_0 
+21:51:11.527 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:51:17.617 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+21:51:18.711 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+21:51:23.081 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:51:51.696 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:53:07.146 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:53:59.583 WARN  - Terminating existing sessions on processor microblaze_0 
+21:54:09.086 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:54:55.234 WARN  - Terminating existing sessions on processor microblaze_0 
+21:55:04.626 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:56:28.080 WARN  - Terminating existing sessions on processor microblaze_0 
+21:56:37.686 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:59:00.580 WARN  - Terminating existing sessions on processor microblaze_0 
+21:59:10.050 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+12:57:34.874 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+13:06:13.571 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:06:16.301 INFO  - System reset is completed. 
+13:28:26.012 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+13:36:12.990 WARN  - Terminating existing sessions on processor microblaze_0 
+13:36:22.712 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+13:55:27.046 WARN  - Terminating existing sessions on processor microblaze_0 
+13:55:36.671 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+13:55:42.634 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:55:43.852 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+13:55:48.486 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:56:27.784 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:00:14.097 WARN  - Terminating existing sessions on processor microblaze_0 
+14:00:23.671 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:03:05.988 WARN  - Terminating existing sessions on processor microblaze_0 
+14:03:15.593 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:10:17.548 WARN  - Terminating existing sessions on processor microblaze_0 
+14:10:27.174 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:23:25.283 INFO  - Project final_edk_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+14:55:39.420 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_edk_hw_plat\system.xml. 
+14:55:39.435 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_edk_hw_plat\system.bit. 
+14:55:39.445 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_edk_hw_plat\system_bd.bmm. 
+14:55:41.862 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:55:42.730 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+14:55:44.537 INFO  - Updating MSS for Board Support Package Project: final_project_bsp.
+		 The following driver assignments were removed:
+			Peripheral Instance: gpio_encoder_in, driver: gpio_v3_01_a.
+		 The following new driver assignments were made:
+			Peripheral Instance: enc_sig_a, driver: gpio_v3_01_a.
+			Peripheral Instance: enc_sig_b, driver: gpio_v3_01_a.
+ 
+14:55:45.316 INFO  - Updating MSS for Board Support Package Project: interrupt_test_bsp.
+		 The following driver assignments were removed:
+			Peripheral Instance: gpio_encoder_in, driver: gpio_v3_01_a.
+		 The following new driver assignments were made:
+			Peripheral Instance: enc_sig_a, driver: gpio_v3_01_a.
+			Peripheral Instance: enc_sig_b, driver: gpio_v3_01_a.
+ 
+14:55:46.134 INFO  - Updating hardware inferred compiler options for final_project. 
+14:55:46.913 INFO  - Updating hardware inferred compiler options for interrupt_test. 
+14:55:46.941 INFO  - Clearing existing target manager status. 
+14:55:52.411 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+14:56:09.754 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+14:56:09.768 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+14:56:09.775 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+14:56:11.239 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:56:12.032 INFO  - Updating MSS for Board Support Package Project: hello_world_bsp.
+		 The following driver assignments were removed:
+			Peripheral Instance: gpio_encoder_in, driver: gpio_v3_01_a.
+		 The following new driver assignments were made:
+			Peripheral Instance: enc_sig_a, driver: gpio_v3_01_a.
+			Peripheral Instance: enc_sig_b, driver: gpio_v3_01_a.
+ 
+14:56:12.820 INFO  - Updating hardware inferred compiler options for hello_world. 
+14:56:12.828 INFO  - Clearing existing target manager status. 
+14:56:13.834 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+15:07:05.422 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:18:02.634 INFO  - Project final_edk_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+15:32:40.788 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_edk_hw_plat\system.xml. 
+15:32:40.803 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_edk_hw_plat\system.bit. 
+15:32:40.803 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_edk_hw_plat\system_bd.bmm. 
+15:32:42.369 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:32:45.477 INFO  - Updating hardware inferred compiler options for final_project. 
+15:32:46.259 INFO  - Updating hardware inferred compiler options for interrupt_test. 
+15:32:46.290 INFO  - Clearing existing target manager status. 
+15:32:51.698 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+15:32:53.666 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+15:32:53.682 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+15:32:53.697 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+15:32:54.628 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+15:32:56.194 INFO  - Updating hardware inferred compiler options for hello_world. 
+15:32:56.241 INFO  - Clearing existing target manager status. 
+15:32:57.242 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+15:35:15.010 INFO  - Project final_project_1_bsp was a BSP project. Please update references. 
+15:35:15.025 ERROR - SDK has detected that project final_project_1_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+15:39:08.329 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:44:29.680 WARN  - Terminating existing sessions on processor microblaze_0 
+15:44:39.095 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:44:55.696 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:44:57.420 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+15:45:01.406 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:53:09.482 WARN  - Terminating existing sessions on processor microblaze_0 
+15:53:19.111 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:53:24.857 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:53:26.901 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+15:53:30.771 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:54:51.482 WARN  - Terminating existing sessions on processor microblaze_0 
+16:55:01.013 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:56:32.248 WARN  - Terminating existing sessions on processor microblaze_0 
+16:56:41.786 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:56:47.612 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:56:49.360 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+16:56:53.016 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:57:22.580 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:57:27.599 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+16:57:27.599 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+16:57:32.202 ERROR - Unexpected error while issuing command {"command": "xfpga_isconfigured -cable type digilent_plugin"} to XMD: java.net.SocketException: Connection reset by peer: socket write error 
+16:57:32.207 ERROR - Checking FPGA configuration failed.. 
+17:03:22.935 WARN  - Terminating existing sessions on processor microblaze_0 
+17:03:32.291 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:03:42.023 INFO  - System reset is completed. 
+17:05:19.636 WARN  - Terminating existing sessions on processor microblaze_0 
+17:05:29.242 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:13:52.294 WARN  - Terminating existing sessions on processor microblaze_0 
+17:14:01.860 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:15:16.128 WARN  - Terminating existing sessions on processor microblaze_0 
+17:15:25.766 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:16:52.065 WARN  - Terminating existing sessions on processor microblaze_0 
+17:16:58.940 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+17:17:26.072 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:36:07.036 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+13:24:01.394 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:40:48.884 WARN  - Terminating existing sessions on processor microblaze_0 
+14:40:58.453 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:41:03.869 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:41:05.185 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+14:41:09.448 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:41:53.692 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:43:54.930 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:55:23.147 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:56:38.653 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:58:54.974 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+14:59:50.529 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:01:10.443 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:02:05.547 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:03:29.652 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:05:06.988 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:06:41.170 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:07:25.911 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:09:30.625 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:10:21.299 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:11:52.997 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:12:45.264 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:13:27.161 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:14:32.907 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:15:19.075 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:16:32.467 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:18:12.742 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:22:36.687 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:22:55.991 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:23:32.151 INFO  - System reset is completed. 
+15:24:13.976 WARN  - Terminating existing sessions on processor microblaze_0 
+15:24:33.550 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:24:41.790 INFO  - System reset is completed. 
+15:33:06.029 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:33:56.109 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:34:14.432 INFO  - System reset is completed. 
+15:36:09.275 WARN  - Terminating existing sessions on processor microblaze_0 
+15:36:19.250 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:38:37.559 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:39:25.667 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:41:57.713 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+15:49:42.001 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:58:11.612 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:58:59.673 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:59:55.550 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:03:15.037 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:04:23.239 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:13:32.304 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:14:28.498 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:15:15.076 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:16:34.143 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:17:34.504 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:21:10.261 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:22:44.896 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:25:36.120 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:26:35.733 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:28:38.350 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:32:17.457 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:35:34.480 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:35:54.378 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:37:33.995 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:39:04.414 INFO  - System reset is completed. 
+16:45:26.302 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+16:50:23.523 INFO  - System reset is completed. 
+16:58:09.195 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:58:10.538 INFO  - System reset is completed. 
+17:00:36.213 WARN  - Terminating existing sessions on processor microblaze_0 
+17:00:55.855 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:01:02.865 INFO  - System reset is completed. 
+17:04:33.399 WARN  - Terminating existing sessions on processor microblaze_0 
+17:04:53.033 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:05:30.371 INFO  - System reset is completed. 
+17:09:29.616 WARN  - Terminating existing sessions on processor microblaze_0 
+17:09:49.246 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:10:01.918 INFO  - System reset is completed. 
+17:15:08.208 WARN  - Terminating existing sessions on processor microblaze_0 
+17:15:27.832 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:15:47.626 INFO  - System reset is completed. 
+17:17:16.487 WARN  - Terminating existing sessions on processor microblaze_0 
+17:17:36.141 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:17:42.354 INFO  - System reset is completed. 
+17:22:49.604 WARN  - Terminating existing sessions on processor microblaze_0 
+17:23:09.268 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:23:23.640 INFO  - System reset is completed. 
+17:27:31.034 WARN  - Terminating existing sessions on processor microblaze_0 
+17:27:50.695 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:28:01.128 INFO  - System reset is completed. 
+17:30:14.386 WARN  - Terminating existing sessions on processor microblaze_0 
+17:30:33.940 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:30:44.343 INFO  - System reset is completed. 
+17:39:26.105 WARN  - Terminating existing sessions on processor microblaze_0 
+17:39:45.760 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:40:07.943 INFO  - System reset is completed. 
+17:50:05.239 WARN  - Terminating existing sessions on processor microblaze_0 
+17:50:24.990 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:50:36.773 INFO  - System reset is completed. 
+17:53:24.584 WARN  - Terminating existing sessions on processor microblaze_0 
+17:53:44.261 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:53:54.770 INFO  - System reset is completed. 
+17:56:30.783 WARN  - Terminating existing sessions on processor microblaze_0 
+17:56:50.380 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:56:55.688 INFO  - System reset is completed. 
+17:59:27.528 WARN  - Terminating existing sessions on processor microblaze_0 
+17:59:47.198 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:59:59.838 INFO  - System reset is completed. 
+18:01:40.365 WARN  - Terminating existing sessions on processor microblaze_0 
+18:02:00.021 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:02:07.055 INFO  - System reset is completed. 
+18:05:48.442 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+18:05:48.580 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+18:11:56.672 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:12:07.265 INFO  - System reset is completed. 
+18:14:35.452 WARN  - Terminating existing sessions on processor microblaze_0 
+18:14:55.040 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:15:29.893 INFO  - System reset is completed. 
+18:17:53.631 WARN  - Terminating existing sessions on processor microblaze_0 
+18:18:13.126 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:18:22.470 INFO  - System reset is completed. 
+18:19:48.940 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+18:19:48.972 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+18:19:48.972 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+18:20:34.701 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:20:41.784 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+18:20:41.799 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+18:21:27.857 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:23:04.680 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:24:07.373 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:34:38.310 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:37:20.672 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:38:22.450 WARN  - Terminating existing sessions on processor microblaze_0 
+18:38:32.053 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:47:57.254 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:49:34.304 WARN  - Terminating existing sessions on processor microblaze_0 
+18:49:43.844 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+18:55:00.031 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:00:08.111 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:04:03.694 WARN  - Terminating existing sessions on processor microblaze_0 
+19:04:13.219 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:07:59.387 WARN  - Terminating existing sessions on processor microblaze_0 
+19:08:09.021 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:08:14.107 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:08:19.130 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+19:08:22.253 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:08:48.522 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:13:16.783 WARN  - Terminating existing sessions on processor microblaze_0 
+19:13:26.433 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:16:37.349 WARN  - Terminating existing sessions on processor microblaze_0 
+19:16:46.921 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:19:16.746 WARN  - Terminating existing sessions on processor microblaze_0 
+19:19:26.302 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:27:47.207 WARN  - Terminating existing sessions on processor microblaze_0 
+19:27:56.779 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:34:57.851 WARN  - Terminating existing sessions on processor microblaze_0 
+19:35:07.439 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:36:10.032 WARN  - Terminating existing sessions on processor microblaze_0 
+19:36:19.697 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:36:26.671 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:36:29.073 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+19:36:32.009 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:37:02.981 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:38:06.431 WARN  - Terminating existing sessions on processor microblaze_0 
+19:38:16.003 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:40:03.898 WARN  - Terminating existing sessions on processor microblaze_0 
+19:40:13.579 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:41:22.690 WARN  - Terminating existing sessions on processor microblaze_0 
+19:41:32.247 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:46:47.838 WARN  - Terminating existing sessions on processor microblaze_0 
+19:46:57.394 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:47:03.229 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:47:04.539 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+19:47:07.800 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:47:35.031 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:49:31.410 WARN  - Terminating existing sessions on processor microblaze_0 
+19:49:40.997 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:58:05.612 WARN  - Terminating existing sessions on processor microblaze_0 
+19:58:15.058 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:59:34.465 WARN  - Terminating existing sessions on processor microblaze_0 
+19:59:43.881 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+19:59:50.043 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:59:56.704 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+20:00:04.675 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:00:36.226 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+20:02:46.286 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+20:06:50.562 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+20:24:14.823 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+20:24:52.992 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+20:33:52.307 WARN  - Terminating existing sessions on processor microblaze_0 
+20:34:01.879 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+20:37:04.012 WARN  - Terminating existing sessions on processor microblaze_0 
+20:37:13.693 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:28:34.386 WARN  - Terminating existing sessions on processor microblaze_0 
+21:28:43.973 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:33:50.242 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:34:27.606 WARN  - Terminating existing sessions on processor microblaze_0 
+21:34:37.303 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:36:02.965 WARN  - Terminating existing sessions on processor microblaze_0 
+21:36:12.552 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:39:10.800 WARN  - Terminating existing sessions on processor microblaze_0 
+21:39:20.465 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:49:11.210 WARN  - Terminating existing sessions on processor microblaze_0 
+21:49:20.813 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:54:05.635 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+21:58:30.805 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+22:01:16.696 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+22:02:24.443 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+22:04:28.226 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+22:05:07.602 WARN  - Terminating existing sessions on processor microblaze_0 
+22:05:17.158 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+22:06:00.045 WARN  - Terminating existing sessions on processor microblaze_0 
+22:06:09.695 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+22:15:25.022 WARN  - Terminating existing sessions on processor microblaze_0 
+22:15:34.687 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+22:17:22.246 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+22:23:50.792 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+22:24:22.181 WARN  - Terminating existing sessions on processor microblaze_0 
+22:24:31.831 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+22:25:01.005 WARN  - Terminating existing sessions on processor microblaze_0 
+22:25:10.561 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+22:25:50.967 WARN  - Terminating existing sessions on processor microblaze_0 
+22:26:00.539 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+22:43:58.213 INFO  - Project final_edk_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+22:59:13.802 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_edk_hw_plat\system.xml. 
+22:59:13.817 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_edk_hw_plat\system.bit. 
+22:59:13.817 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_edk_hw_plat\system_bd.bmm. 
+22:59:15.955 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+22:59:18.248 INFO  - Updating MSS for Board Support Package Project: final_project_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: xps_timer_0, driver: tmrctr_v2_05_a.
+ 
+22:59:19.075 INFO  - Updating hardware inferred compiler options for final_project. 
+22:59:19.075 INFO  - Clearing existing target manager status. 
+22:59:19.090 INFO  - Closing and re-opening the MSS file of ther project final_project_bsp 
+22:59:20.213 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+22:59:23.241 INFO  - Project final_project_hw_plat's source hardware specification located at C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+22:59:41.122 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.xml into \final_project_hw_plat\system.xml. 
+22:59:41.138 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system.bit into \final_project_hw_plat\system.bit. 
+22:59:41.138 INFO  - Copied contents of C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_platform\proj\SDK\SDK_Export\hw\system_bd.bmm into \final_project_hw_plat\system_bd.bmm. 
+22:59:42.776 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+22:59:42.838 INFO  - Clearing existing target manager status. 
+22:59:42.854 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+23:16:46.907 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+23:22:07.987 WARN  - Terminating existing sessions on processor microblaze_0 
+23:22:17.575 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+23:23:34.927 WARN  - Terminating existing sessions on processor microblaze_0 
+23:23:44.501 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+23:26:15.826 WARN  - Terminating existing sessions on processor microblaze_0 
+23:26:25.448 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+23:26:29.239 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+23:26:31.097 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+23:26:35.606 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+23:27:10.103 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+23:32:00.051 WARN  - Terminating existing sessions on processor microblaze_0 
+23:32:09.638 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+23:54:21.235 WARN  - Terminating existing sessions on processor microblaze_0 
+23:54:30.887 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+23:58:33.518 WARN  - Terminating existing sessions on processor microblaze_0 
+23:58:43.077 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+23:59:59.863 WARN  - Terminating existing sessions on processor microblaze_0 
+00:00:09.435 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:01:40.709 WARN  - Terminating existing sessions on processor microblaze_0 
+00:01:50.312 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:02:30.003 WARN  - Terminating existing sessions on processor microblaze_0 
+00:02:39.621 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:11:19.421 WARN  - Terminating existing sessions on processor microblaze_0 
+00:11:29.024 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:14:24.994 WARN  - Terminating existing sessions on processor microblaze_0 
+00:14:34.603 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:15:05.783 WARN  - Terminating existing sessions on processor microblaze_0 
+00:15:15.370 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:15:40.052 WARN  - Terminating existing sessions on processor microblaze_0 
+00:15:49.593 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:18:52.106 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:19:20.680 WARN  - Terminating existing sessions on processor microblaze_0 
+00:19:30.269 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:23:24.699 WARN  - Terminating existing sessions on processor microblaze_0 
+00:23:34.289 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:29:24.335 WARN  - Terminating existing sessions on processor microblaze_0 
+00:29:33.833 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:30:52.793 WARN  - Terminating existing sessions on processor microblaze_0 
+00:31:02.401 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:31:52.244 WARN  - Terminating existing sessions on processor microblaze_0 
+00:32:01.909 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:34:56.539 WARN  - Terminating existing sessions on processor microblaze_0 
+00:35:06.001 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:38:34.038 WARN  - Terminating existing sessions on processor microblaze_0 
+00:38:43.672 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:42:10.573 INFO  - Restoring global repository preferences: 
+		 C:\Xilinx\14.6\ISE_DS\pcores 
+00:43:42.913 WARN  - Terminating existing sessions on processor microblaze_0 
+00:43:52.454 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+00:54:11.162 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+00:54:11.167 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+00:54:11.179 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 

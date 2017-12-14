@@ -1,0 +1,14 @@
+21:29:00 **** Incremental Build of configuration Debug for project interrupt_test ****
+make all 
+'Building file: ../src/xgpio_intr_example.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../interrupt_test_bsp/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xgpio_intr_example.d" -MT"src/xgpio_intr_example.d" -o "src/xgpio_intr_example.o" "../src/xgpio_intr_example.c"
+../src/xgpio_intr_example.c: In function 'main':
+../src/xgpio_intr_example.c:247:35: error: 'XPAR_PUSH_BUTTONS_4BITS_DEVICE_ID' undeclared (first use in this function)
+../src/xgpio_intr_example.c:247:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/xgpio_intr_example.c: In function 'SetupInterruptSystem':
+../src/xgpio_intr_example.c:505:33: error: 'XPAR_INTC_0_GPIO_2_VEC_ID' undeclared (first use in this function)
+make: *** [src/xgpio_intr_example.o] Error 1
+
+21:29:00 Build Finished (took 203ms)
+
