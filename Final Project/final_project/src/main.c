@@ -213,29 +213,15 @@ int main() {
 		while(!XGpio_DiscreteRead(&BUTTON, 1)) {}
 	}
 
-	/*
-	while(1) {
-		uint16_t read_in_a = XGpio_DiscreteRead(&ENC_SIG_A, 1);
-		uint16_t read_in_b = XGpio_DiscreteRead(&ENC_SIG_B, 1);
-		uint16_t button_state = XGpio_DiscreteRead(&BUTTON, 1);
-		sprintf(string_text, "%s%d%s%d%s%d\n\r", "Displaying offset: ", read_in_a, ", ", read_in_b, ", ", button_state);
-		print(string_text);
-		sprintf(string_text, "%d\n\r", new_offset);
-		print(string_text);
-	}
-	*/
 	return 0;
 }
 
-void test_ih(void *InstancePtr) {
+void encoder_isr(void *InstancePtr) {
 	XGpio *GpioPtr = (XGpio *) InstancePtr;
 	XGpio_InterruptDisable(GpioPtr, XPAR_ENC_SIG_A_IP2INTC_IRPT_MASK);
 
 	new_offset = (XGpio_DiscreteRead(&ENC_SIG_A, 1) == XGpio_DiscreteRead(&ENC_SIG_B, 1)) ?
-			(new_offset + 1) : (new_offset - 2);
-
-	int i = 0;
-	for (; i < 1000; i++) {}
+			(new_offset + 1) : (new_offset - 1);
 
 	(void)XGpio_InterruptClear(GpioPtr, XPAR_ENC_SIG_A_IP2INTC_IRPT_MASK);
 	XGpio_InterruptEnable(GpioPtr, XPAR_ENC_SIG_A_IP2INTC_IRPT_MASK);
@@ -254,7 +240,7 @@ int SetupInterrupts() {
 	}
 
 	Result = XIntc_Connect(IntcInstancePtr, XPAR_INTC_0_GPIO_1_VEC_ID,
-			(Xil_ExceptionHandler)test_ih, &ENC_SIG_A);
+			(Xil_ExceptionHandler)encoder_isr, &ENC_SIG_A);
 	if (Result != XST_SUCCESS) {
 			return Result;
 	}

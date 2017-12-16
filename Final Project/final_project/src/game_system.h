@@ -42,11 +42,6 @@ typedef struct game {
 	uint8_t maze_width;
 
 	/**
-	 * The current maze speed.
-	 */
-	uint8_t maze_speed;
-
-	/**
 	 * The player's current y-coordinate position.
 	 */
 	int16_t player_pos;
@@ -83,7 +78,6 @@ bool initialize_game(GAME *game) {
 	game->maze_back = GRAPHIC_WIDTH - 1;
 
 	game->maze_width = START_WIDTH;
-	game->maze_speed = START_SPEED;
 
 	game->player_pos = PLAYER_Y_START_COORD;
 
@@ -113,23 +107,15 @@ bool propagate_game(GAME *game, uint16_t player_step) {
 	if (!game->initialized || game->game_over) return false;
 
 	/*
-	 * On the score reaching a multiple of 200, the speed and difficulty of the
-	 * game should increase (but only if those settings haven't reached
-	 * pre-defined maximums).
+	 * On the score reaching a multiple of 200, the difficulty of the game
+	 * should increase (but only if the setting has not reached a pre-defined
+	 * maximum).
 	 *
 	 * Then, generate a new column for the maze.
 	 */
-	if (!game->score == 0 && game->score % 20 == 0) {
-		if (game->maze_width > MIN_WIDTH) {
-			game->maze_width--;
-			game->maze[game->maze_front] = generate_col_def(game->maze[game->maze_back], -1);
-		}
-		else {
-			game->maze[game->maze_front] = generate_col_def(game->maze[game->maze_back], 0);
-		}
-		if (game->maze_speed < MAX_SPEED) {
-			game->maze_speed++;
-		}
+	if (!game->score == 0 && game->score % 20 == 0 && game->maze_width > MIN_WIDTH) {
+        game->maze_width--;
+        game->maze[game->maze_front] = generate_col_def(game->maze[game->maze_back], -1);
 	}
 	else {
 		game->maze[game->maze_front] = generate_col_def(game->maze[game->maze_back], 0);

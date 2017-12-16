@@ -133,7 +133,7 @@ COL_DEF generate_col_def(COL_DEF cur_col, int16_t size_change) {
 	if (new_upper < 0 ||
 		new_lower >= GRAPHIC_HEIGHT) {
 		new_upper = cur_col.upper_bound;
-		new_lower = cur_col.lower_bound;
+		new_lower = cur_col.lower_bound + size_change;
 	}
 
 	/*
