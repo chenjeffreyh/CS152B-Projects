@@ -190,7 +190,7 @@ int main() {
 
 			while(XTmrCtr_GetValue(&timer, 0) < SCREEN_REFRESH_PERIOD) {}
 
-			sprintf(message, "%s%d\n\r", "The current score is: ", game.score);
+			sprintf(message, "%d\n\r", game.score);
 			print(message);
 		}
 

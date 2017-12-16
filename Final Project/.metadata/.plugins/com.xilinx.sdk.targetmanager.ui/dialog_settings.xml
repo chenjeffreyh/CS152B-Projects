@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="C:\Users\CS152B\Desktop\RMJ\final_project\final_project_hw_plat\system_bd.bmm" key="final_project_hw_plat-bmmFile"/>
 	<item value="bootloop" key="final_edk_hw_plat-microblaze_0-initElf"/>
+	<item value="C:\Users\CS152B\Desktop\RMJ\final_project\final_project_hw_plat\system_bd.bmm" key="final_project_hw_plat-bmmFile"/>
 	<item value="C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_plat\system_bd.bmm" key="final_edk_hw_plat-bmmFile"/>
 	<item value="C:\Users\CS152B\Desktop\RMJ\final_project\final_edk_hw_plat\system.bit" key="final_edk_hw_plat-bitFile"/>
 	<item value="C:\Users\CS152B\Desktop\RMJ\final_project\final_project_hw_plat\system.bit" key="final_project_hw_plat-bitFile"/>

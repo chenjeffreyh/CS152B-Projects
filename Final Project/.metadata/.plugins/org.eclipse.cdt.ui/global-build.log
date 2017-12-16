@@ -22241,3 +22241,194 @@ ELF file	: final_project.elf
 elfcheck passed.
 'Finished building: final_project.elf.elfcheck'
 ' '
+15:03:35 **** Auto Build of project final_project_bsp ****
+make -k all 
+'Finished building libraries'
+15:04:06 **** Incremental Build of configuration Debug for project final_project ****
+make all 
+make: Nothing to be done for `all'.
+15:08:26 **** Auto Build of configuration Debug for project final_project ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../final_project_bsp/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:193:4: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' [-Wformat]
+../src/main.c:193:4: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' [-Wformat]
+../src/main.c:208:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:208:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+'Finished building: ../src/main.c'
+' '
+'Building target: final_project.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../final_project_bsp/microblaze_0/lib -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "final_project.elf"  ./src/cam_ctrl.o ./src/helloworld.o ./src/main.o ./src/platform.o ./src/vmodcam_cfg.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  56302	   1536	   7520	  65358	   ff4e	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck final_project.elf -hw ../../final_edk_hw_plat/system.xml -pe microblaze_0  |tee "final_project.elf.elfcheck"
+elfcheck
+Xilinx EDK 2013.2 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../final_edk_hw_plat/system.xml -pe microblaze_0
+final_project.elf 
+
+ELF file	: final_project.elf
+elfcheck passed.
+'Finished building: final_project.elf.elfcheck'
+' '
+15:08:47 **** Auto Build of project final_project_bsp ****
+make -k all 
+'Finished building libraries'
+15:08:52 **** Incremental Build of configuration Debug for project final_project ****
+make all 
+make: Nothing to be done for `all'.
+15:09:09 **** Auto Build of configuration Debug for project final_project ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../final_project_bsp/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:193:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:193:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:208:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:208:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+'Finished building: ../src/main.c'
+' '
+'Building target: final_project.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../final_project_bsp/microblaze_0/lib -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "final_project.elf"  ./src/cam_ctrl.o ./src/helloworld.o ./src/main.o ./src/platform.o ./src/vmodcam_cfg.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  56326	   1536	   7520	  65382	   ff66	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck final_project.elf -hw ../../final_edk_hw_plat/system.xml -pe microblaze_0  |tee "final_project.elf.elfcheck"
+elfcheck
+Xilinx EDK 2013.2 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../final_edk_hw_plat/system.xml -pe microblaze_0
+final_project.elf 
+
+ELF file	: final_project.elf
+elfcheck passed.
+'Finished building: final_project.elf.elfcheck'
+' '
+15:09:52 **** Auto Build of project final_project_bsp ****
+make -k all 
+'Finished building libraries'
+15:09:57 **** Incremental Build of configuration Debug for project final_project ****
+make all 
+make: Nothing to be done for `all'.
+15:12:59 **** Auto Build of configuration Debug for project final_project ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../final_project_bsp/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../src/game_system.h: In function 'initialize_game':
+../src/game_system.h:92:2: error: expected ';' before 'game'
+../src/main.c: In function 'main':
+../src/main.c:193:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:193:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:208:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:208:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+make: *** [src/main.o] Error 1
+15:13:01 **** Auto Build of configuration Debug for project final_project ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../final_project_bsp/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:193:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:193:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:208:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:208:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+'Finished building: ../src/main.c'
+' '
+'Building target: final_project.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../final_project_bsp/microblaze_0/lib -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "final_project.elf"  ./src/cam_ctrl.o ./src/helloworld.o ./src/main.o ./src/platform.o ./src/vmodcam_cfg.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  56330	   1536	   7526	  65392	   ff70	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck final_project.elf -hw ../../final_edk_hw_plat/system.xml -pe microblaze_0  |tee "final_project.elf.elfcheck"
+elfcheck
+Xilinx EDK 2013.2 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../final_edk_hw_plat/system.xml -pe microblaze_0
+final_project.elf 
+
+ELF file	: final_project.elf
+elfcheck passed.
+'Finished building: final_project.elf.elfcheck'
+' '
+15:13:19 **** Auto Build of project final_project_bsp ****
+make -k all 
+'Finished building libraries'
+15:13:21 **** Incremental Build of configuration Debug for project final_project ****
+make all 
+make: Nothing to be done for `all'.
+15:13:38 **** Incremental Build of configuration Debug for project final_project ****
+make all 
+make: Nothing to be done for `all'.
+16:13:31 **** Auto Build of configuration Debug for project final_project ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -Os -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../final_project_bsp/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:193:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:193:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:208:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+../src/main.c:208:3: warning: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' [-Wformat]
+'Finished building: ../src/main.c'
+' '
+'Building target: final_project.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../final_project_bsp/microblaze_0/lib -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.50.b -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "final_project.elf"  ./src/cam_ctrl.o ./src/helloworld.o ./src/main.o ./src/platform.o ./src/vmodcam_cfg.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  56330	   1536	   7526	  65392	   ff70	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+'Invoking: Xilinx ELF Check'
+elfcheck final_project.elf -hw ../../final_edk_hw_plat/system.xml -pe microblaze_0  |tee "final_project.elf.elfcheck"
+elfcheck
+Xilinx EDK 2013.2 Build EDK_P.68d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../final_edk_hw_plat/system.xml -pe microblaze_0
+final_project.elf 
+
+ELF file	: final_project.elf
+elfcheck passed.
+'Finished building: final_project.elf.elfcheck'
+' '
+16:13:50 **** Auto Build of project final_project_bsp ****
+make -k all 
+'Finished building libraries'
+16:13:58 **** Incremental Build of configuration Debug for project final_project ****
+make all 
+make: Nothing to be done for `all'.

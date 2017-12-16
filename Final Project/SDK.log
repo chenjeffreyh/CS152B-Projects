@@ -1016,3 +1016,32 @@ If this project was a BSP referenced by other C/C++ applications, then those app
 	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
 
 00:54:11.179 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+15:03:34.891 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:08:37.259 WARN  - Terminating existing sessions on processor microblaze_0 
+15:08:46.803 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:08:53.033 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:08:55.643 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+15:09:15.902 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+15:09:51.777 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:13:08.482 WARN  - Terminating existing sessions on processor microblaze_0 
+15:13:18.062 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+15:13:22.431 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:13:24.844 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+15:13:27.901 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:13:40.298 WARN  - Terminating existing sessions on processor microblaze_0 
+16:13:49.948 INFO  - FPGA configured successfully with bitstream "C:/Users/CS152B/Desktop/RMJ/final_project/final_edk_hw_plat/download.bit" 
+17:10:43.355 ERROR - FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Unknown Error
+ 
+17:14:17.990 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

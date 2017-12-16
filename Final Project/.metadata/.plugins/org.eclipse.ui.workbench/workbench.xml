@@ -28,7 +28,7 @@
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1511991153385" focus="true" label="Workspace - C/C++">
 <editors>
-<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@42d2cba0">
+<editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -61,23 +61,23 @@
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="graphic_system.h" partName="graphic_system.h" path="C:/Users/CS152B/Desktop/RMJ/final_project/final_project/src/graphic_system.h" title="graphic_system.h" tooltip="final_project/src/graphic_system.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/final_project/src/graphic_system.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="963" selectionTopPixel="315"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="996" selectionTopPixel="315"/>
 </editor>
-<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="game_system.h" partName="game_system.h" path="C:/Users/CS152B/Desktop/RMJ/final_project/final_project/src/game_system.h" title="game_system.h" tooltip="final_project/src/game_system.h" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="game_system.h" partName="game_system.h" path="C:/Users/CS152B/Desktop/RMJ/final_project/final_project/src/game_system.h" title="game_system.h" tooltip="final_project/src/game_system.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/final_project/src/game_system.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2392" selectionTopPixel="1350"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2555" selectionTopPixel="1530"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="xparameters.h" partName="xparameters.h" path="C:/Users/CS152B/Desktop/RMJ/final_project/final_project_bsp/microblaze_0/include/xparameters.h" title="xparameters.h" tooltip="final_project_bsp/microblaze_0/include/xparameters.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/final_project_bsp/microblaze_0/include/xparameters.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="27" selectionOffset="14043" selectionTopPixel="5175"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="maze_system.h" partName="maze_system.h" path="C:/Users/CS152B/Desktop/RMJ/final_project/final_project/src/maze_system.h" title="maze_system.h" tooltip="final_project/src/maze_system.h" workbook="org.eclipse.ui.internal.EditorStack@42d2cba0">
+<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="maze_system.h" partName="maze_system.h" path="C:/Users/CS152B/Desktop/RMJ/final_project/final_project/src/maze_system.h" title="maze_system.h" tooltip="final_project/src/maze_system.h" workbook="org.eclipse.ui.internal.EditorStack@42d2cba0">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/final_project/src/maze_system.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2463" selectionTopPixel="828"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2463" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/CS152B/Desktop/RMJ/final_project/final_project/src/main.c" title="main.c" tooltip="final_project/src/main.c" workbook="org.eclipse.ui.internal.EditorStack@42d2cba0">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/CS152B/Desktop/RMJ/final_project/final_project/src/main.c" title="main.c" tooltip="final_project/src/main.c" workbook="org.eclipse.ui.internal.EditorStack@42d2cba0">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/final_project/src/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="596" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8354" selectionTopPixel="2823"/>
 </editor>
 <editor id="com.xilinx.sdk.sw.MSSEditor" name="system.mss" partName="system.mss" path="C:/Users/CS152B/Desktop/RMJ/final_project/final_project_bsp/system.mss" title="system.mss" tooltip="final_project_bsp/system.mss" workbook="org.eclipse.ui.internal.EditorStack@42d2cba0">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/final_project_bsp/system.mss"/>
@@ -129,7 +129,6 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings (2 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="979"/>
@@ -374,37 +373,12 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/final_project/src/game_system.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/final_project/src/maze_system.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/final_project_bsp/microblaze_0/include/xparameters.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/final_project/src/game_system.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/final_project/src/game_system.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/final_project/src/graphic_system.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/final_project/src/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/final_project/src/maze_system.h"/>
 </editors>
-<item historyLabel="maze_system.h" index="4">
-<position info="not_deleted" x="1622" y="0"/>
-</item>
-<item historyLabel="game_system.h" index="3">
-<position/>
-</item>
-<item historyLabel="maze_system.h" index="4">
-<position info="not_deleted" x="2249" y="0"/>
-</item>
-<item historyLabel="game_system.h" index="3">
-<position/>
-</item>
-<item historyLabel="game_system.h" index="3">
-<position/>
-</item>
-<item historyLabel="game_system.h" index="3">
-<position/>
-</item>
-<item historyLabel="game_system.h" index="3">
-<position/>
-</item>
-<item historyLabel="game_system.h" index="3">
-<position info="not_deleted" x="2909" y="0"/>
-</item>
-<item historyLabel="game_system.h" index="3">
-<position info="not_deleted" x="2956" y="0"/>
-</item>
-<item historyLabel="game_system.h" index="3">
-<position info="not_deleted" x="2960" y="0"/>
-</item>
 <item historyLabel="game_system.h" index="3">
 <position info="not_deleted" x="2579" y="0"/>
 </item>
@@ -522,8 +496,38 @@
 <item historyLabel="game_system.h" index="3">
 <position info="not_deleted" x="2392" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="1">
+<item historyLabel="main.c" index="1">
 <position/>
+</item>
+<item historyLabel="game_system.h" index="6">
+<position info="not_deleted" x="2113" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="288" y="0"/>
+</item>
+<item historyLabel="game_system.h" index="7">
+<position info="not_deleted" x="2287" y="0"/>
+</item>
+<item historyLabel="graphic_system.h" index="8">
+<position info="not_deleted" x="996" y="0"/>
+</item>
+<item historyLabel="game_system.h" index="7">
+<position info="not_deleted" x="2109" y="0"/>
+</item>
+<item historyLabel="main.c" index="9">
+<position info="not_deleted" x="8974" y="0"/>
+</item>
+<item historyLabel="game_system.h" index="7">
+<position info="not_deleted" x="2367" y="0"/>
+</item>
+<item historyLabel="main.c" index="9">
+<position info="not_deleted" x="8354" y="0"/>
+</item>
+<item historyLabel="maze_system.h" index="10">
+<position info="not_deleted" x="2463" y="0"/>
+</item>
+<item active="true" historyLabel="game_system.h" index="7">
+<position info="not_deleted" x="2136" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -542,6 +546,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="system.xmp" tooltip="C:\Users\CS152B\Desktop\RMJ\final_project\edk_hw_platform\system.xmp">
+<persistable uri="file:/C:/Users/CS152B/Desktop/RMJ/final_project/edk_hw_platform/system.xmp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xtmrctr.h" tooltip="final_project_bsp/microblaze_0/include/xtmrctr.h">
 <persistable path="/final_project_bsp/microblaze_0/include/xtmrctr.h"/>
 </file>
@@ -583,9 +590,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="xintc_example.c" tooltip="C:\Xilinx\14.6\ISE_DS\EDK\sw\XilinxProcessorIPLib\drivers\intc_v2_06_a\examples\xintc_example.c">
 <persistable uri="file:/C:/Xilinx/14.6/ISE_DS/EDK/sw/XilinxProcessorIPLib/drivers/intc_v2_06_a/examples/xintc_example.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="helloworld.c" tooltip="hello_world/src/helloworld.c">
-<persistable path="/hello_world/src/helloworld.c"/>
 </file>
 </mruList>
 </workbench>

@@ -119,7 +119,7 @@ bool propagate_game(GAME *game, uint16_t player_step) {
 	 *
 	 * Then, generate a new column for the maze.
 	 */
-	if (!game->score == 0 && game->score % 20 == 0) {
+	if (!game->score == 0 && game->score % 200 == 0) {
 		if (game->maze_width > MIN_WIDTH) {
 			game->maze_width--;
 			game->maze[game->maze_front] = generate_col_def(game->maze[game->maze_back], -1);
